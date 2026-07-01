@@ -1,0 +1,194 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "4afaeed5-a941-46ef-9c44-8184edd385da")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 116.84 55.88)
+		(size 60.96 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "02a6e186-fbc9-4047-913b-4f654bb5cb6f")
+		(property "Sheetname" "Power"
+			(at 116.84 55.1684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PWR.kicad_sch"
+			(at 116.84 86.9446 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 101.6)
+		(size 60.96 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5503b502-b844-4ddb-9cc9-eaf195c10ce6")
+		(property "Sheetname" "Audio"
+			(at 116.84 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Audio.kicad_sch"
+			(at 116.84 132.6646 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 55.88)
+		(size 60.96 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "89e6b152-32e7-4a36-a4b7-5379dfb52107")
+		(property "Sheetname" "ESP32-S3"
+			(at 43.18 55.1684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32-S3.kicad_sch"
+			(at 43.18 86.9446 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 101.6)
+		(size 60.96 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "96b54a8d-c983-4310-9c2b-f6e4e052df93")
+		(property "Sheetname" "Peripheral"
+			(at 190.5 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peri.kicad_sch"
+			(at 190.5 132.6646 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

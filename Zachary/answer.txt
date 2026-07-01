@@ -1,0 +1,26 @@
+Hi,
+Thanks for the detailed information, this is a very clear production-style board. I'll answer the questions.
+
+1. I can work in both of KiCad and EasyEDA you prefered. for this project I'll use KiCad, and you'll receive all the files you want.
+
+2. Yes. I have laid out Class-D & mixed-signal audio systems, including esp32, multi mics, analog/digital partitioned audio, I2S DAC/codec output.But I'm afraid of can't show you because of the NDA. anyway I'm sure my experience will help you in this project.
+
+3. I'll add my recent project and you can find them in my portfolios.
+
+4. Confirmed and aligned. 
+	Schematic and PCB only, 
+	no firmware
+	Gerber with outstock flag
+	3 ~ 4 weeks is realistic, weekly revision
+	5K budget
+
+5. the exercise
+1) Class-D output stage vs EMC / FCC Part 15B risk
+output switching loop area, LC filter placement vs connector distance, speaker trace routing acting as antenna, return current containment through ground structure should be tightly controlled, if not, FCC fail
+2) PDM mic CLK/DATA routing near Class-D domain (J3)
+this is a high-risk coupling and needs strict zoning.
+PDM should stay in RF quiet region. and cross Class-D area only with tuned impedance and orthogonal crossing(if unavoidable)
+3) Ground / return path partitioning strategy
+for this I have to confirm the followings : single solid GND plane strategy vs split zone, star-point existing position
+
+overall this is a solid architecture and very buildable, but EMC-sensitivve rather than logic complex.

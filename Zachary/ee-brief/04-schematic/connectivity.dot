@@ -1,0 +1,63 @@
+// Main board devkit-level connectivity (GPIO-annotated).
+// Render:  dot -Tsvg connectivity.dot -o connectivity.svg
+//          dot -Tpdf connectivity.dot -o connectivity.pdf
+digraph mainboard {
+  rankdir=LR;
+  graph [fontname="Helvetica", fontsize=11, labelloc=t,
+         label="Main Board Connectivity (devkit-level, GPIO-annotated)\nESP32-S3-WROOM-1-N16R8 (U1).  EE adds buck/P-FET/PTC/shifter detail + per-datasheet decoupling.  Authority = 02-technical-spec.md pin map.",
+         nodesep=0.45, ranksep=1.1, splines=true];
+  node [fontname="Helvetica", fontsize=10, shape=box, style="rounded,filled", fillcolor="#f5f5f5"];
+  edge [fontname="Helvetica", fontsize=9];
+
+  // ---- power input + rails ----
+  subgraph cluster_pwr {
+    label="POWER  (EE transcribes from TPS54331 datasheet)"; style=dashed; color=gray50; fontname="Helvetica";
+    J1   [label="J1\n12V barrel"];
+    PROT [label="F1 PTC 3A  +\nQ1 AO3401A P-FET\n(reverse-polarity)"];
+    B1   [label="U3a Buck\nTPS54331 -> 3V3"];
+    B2   [label="U3b Buck\nTPS54331 -> 5V (LEDs+shifters only)"];
+  }
+  J1   -> PROT [label="12V"];
+  PROT -> B1   [label="12V_FUSED"];
+  PROT -> B2   [label="12V_FUSED"];
+
+  ESP [label="U1  ESP32-S3-WROOM-1-N16R8", fillcolor="#dae8fc"];
+  AMP [label="U2  TAS5805M\nClass-D, mono PBTL", fillcolor="#d5e8d4"];
+
+  // rails (red = 3V3, orange = 5V, dark red = PVDD)
+  B1   -> ESP [label="3V3", color="#cc0000", fontcolor="#cc0000"];
+  B1   -> AMP [label="3V3 (DVDD)", color="#cc0000", fontcolor="#cc0000"];
+  PROT -> AMP [label="12V_FUSED (PVDD)\n+390uF bulk", color="#7a0000", fontcolor="#7a0000"];
+
+  // ---- amp digital + control ----
+  ESP -> AMP [label="I2S1:  BCLK/GPIO6 · LRCLK/GPIO7 · DOUT->SDIN/GPIO8"];
+  ESP -> AMP [label="I2C:  SDA/GPIO47 · SCL/GPIO48  (+4.7k pull-ups, addr 0x2C)", dir=both];
+  ESP -> AMP [label="PDN / GPIO21"];
+  AMP -> ESP [label="FAULTZ / GPIO14"];
+
+  // ---- connectors (off-board) ----
+  J2 [label="J2 Speaker\nSPK+ / SPK- (4 ohm)", fillcolor="#ffe6cc"];
+  AMP -> J2 [label="PBTL out -> LC filter (10uH+0.68uF) -> 4 ohm, ~10-15W"];
+
+  J3 [label="J3  Mic daughterboard\n3V3 / GND / CLK / DATA", fillcolor="#ffe6cc"];
+  ESP -> J3 [label="MIC_PDM_CLK / GPIO9  (33-100R at header)"];
+  J3  -> ESP [label="MIC_PDM_DATA / GPIO11"];
+  B1  -> J3 [label="3V3", color="#cc0000", fontcolor="#cc0000"];
+
+  U5a [label="U5a  SN74AHCT1G125\n3.3->5V"];
+  U5b [label="U5b  SN74AHCT1G125\n3.3->5V"];
+  J5  [label="J5  COB LED strip\n5V / DATA / GND", fillcolor="#ffe6cc"];
+  J9  [label="J9  Glow daughterboard\n5V / DATA / GND (3x WS2812)", fillcolor="#ffe6cc"];
+  ESP -> U5a [label="LED_COB / GPIO5  (100R)"];
+  U5a -> J5  [label="DATA (5V)"];
+  ESP -> U5b [label="LED_GLOW / GPIO38  (~120R)"];
+  U5b -> J9  [label="DATA (5V)"];
+  B2  -> J5  [label="5V", color="#e08000", fontcolor="#e08000"];
+  B2  -> U5a [label="5V", color="#e08000", fontcolor="#e08000"];
+  B2  -> J9  [label="5V", color="#e08000", fontcolor="#e08000"];
+  B2  -> U5b [label="5V", color="#e08000", fontcolor="#e08000"];
+
+  J10 [label="J10  Controls daughterboard\n3V3 / GND / POT1w / POT2w / BTN", fillcolor="#ffe6cc"];
+  J10 -> ESP [label="POT1w->GPIO1 (ADC1_CH0) · POT2w->GPIO2 (ADC1_CH1) · BTN->GPIO4"];
+  B1  -> J10 [label="3V3", color="#cc0000", fontcolor="#cc0000"];
+}
