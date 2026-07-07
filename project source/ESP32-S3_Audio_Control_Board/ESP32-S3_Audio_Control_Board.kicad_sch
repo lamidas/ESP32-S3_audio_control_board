@@ -5,6 +5,81 @@
 	(uuid "4afaeed5-a941-46ef-9c44-8184edd385da")
 	(paper "A4")
 	(lib_symbols)
+	(text "ESP32-S3-WROOM-1-N16R8"
+		(exclude_from_sim no)
+		(at 74.93 71.882 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "00c65a36-0122-477d-8314-51c49fd73ad8")
+	)
+	(text "SN74AHCT1G125"
+		(exclude_from_sim no)
+		(at 220.218 77.47 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "0a530403-cbd5-450b-8be7-1c0e4974071b")
+	)
+	(text "TAS5805M"
+		(exclude_from_sim no)
+		(at 146.558 116.332 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "20e6db76-25fe-4365-8742-b8630ba35282")
+	)
+	(text "LED"
+		(exclude_from_sim no)
+		(at 219.456 71.628 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "38979e2e-b5b6-4878-ba24-70d764c3e1ee")
+	)
+	(text "TPS54331"
+		(exclude_from_sim no)
+		(at 146.05 72.39 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "da9cba99-9852-4878-b319-9de0bd0e60da")
+	)
+	(wire
+		(pts
+			(xy 177.8 67.31) (xy 189.23 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7752502-3a72-47ff-9fcc-85ac9b209b51")
+	)
+	(label "5V"
+		(at 181.61 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e68a7803-2b45-44b2-93f1-aba373d2a87b")
+	)
 	(sheet
 		(at 116.84 55.88)
 		(size 60.96 30.48)
@@ -42,6 +117,16 @@
 				(justify left top)
 			)
 		)
+		(pin "5V" output
+			(at 177.8 67.31 0)
+			(uuid "0c4c75d7-c3aa-40f9-ad5d-43a84e533b8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "ESP32-S3_Audio_Control_Board"
 				(path "/4afaeed5-a941-46ef-9c44-8184edd385da"
@@ -51,7 +136,7 @@
 		)
 	)
 	(sheet
-		(at 116.84 101.6)
+		(at 116.84 100.33)
 		(size 60.96 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -66,7 +151,7 @@
 		)
 		(uuid "5503b502-b844-4ddb-9cc9-eaf195c10ce6")
 		(property "Sheetname" "Audio"
-			(at 116.84 100.8884 0)
+			(at 116.84 99.6184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -77,7 +162,7 @@
 			)
 		)
 		(property "Sheetfile" "Audio.kicad_sch"
-			(at 116.84 132.6646 0)
+			(at 116.84 131.3946 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -96,7 +181,7 @@
 		)
 	)
 	(sheet
-		(at 43.18 55.88)
+		(at 44.45 55.88)
 		(size 60.96 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -111,7 +196,7 @@
 		)
 		(uuid "89e6b152-32e7-4a36-a4b7-5379dfb52107")
 		(property "Sheetname" "ESP32-S3"
-			(at 43.18 55.1684 0)
+			(at 44.45 55.1684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -122,7 +207,7 @@
 			)
 		)
 		(property "Sheetfile" "ESP32-S3.kicad_sch"
-			(at 43.18 86.9446 0)
+			(at 44.45 86.9446 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -141,7 +226,7 @@
 		)
 	)
 	(sheet
-		(at 190.5 101.6)
+		(at 189.23 55.88)
 		(size 60.96 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -156,7 +241,7 @@
 		)
 		(uuid "96b54a8d-c983-4310-9c2b-f6e4e052df93")
 		(property "Sheetname" "Peripheral"
-			(at 190.5 100.8884 0)
+			(at 189.23 55.1684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -167,7 +252,7 @@
 			)
 		)
 		(property "Sheetfile" "Peri.kicad_sch"
-			(at 190.5 132.6646 0)
+			(at 189.23 86.9446 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects

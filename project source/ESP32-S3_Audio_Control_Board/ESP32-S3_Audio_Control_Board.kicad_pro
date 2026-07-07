@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 3.2,
+          "height": 6.4,
+          "width": 6.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -534,7 +534,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -598,12 +598,138 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field4",
+          "name": "Field4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field6",
+          "name": "Field6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field7",
+          "name": "Field7",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field8",
+          "name": "Field8",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mfr",
+          "name": "Mfr",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mfr PN",
+          "name": "Mfr PN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Description",
+          "name": "Part Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PROD_ID",
+          "name": "PROD_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier PN",
+          "name": "Supplier PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mar",
+          "name": "Mar",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -648,7 +774,7 @@
         "uuid": "4afaeed5-a941-46ef-9c44-8184edd385da"
       }
     ],
-    "used_designators": "D1-5,D14-17,#PWR41-43,#PWR112-163,C1-15,C36,C40-59,R7-16,R26-37,SW1-10,TP2-6,TP16-23,U1-7,#GND_56-59,#GND_116-133,F3-6,J4-7,J19,Q1,L5-6",
+    "used_designators": "D1-5,D14-17,#PWR1-37,#PWR41-43,#PWR101-105,#PWR112-163,C1-74,R1-23,R26-50,SW1-10,TP1-10,TP16-23,U1-7,#GND_1-28,#GND_56-59,#GND_116-145,F1,F3-6,J1-7,J19,Q1-2,L1-8,P1,C40.1,H1-4",
     "variants": []
   },
   "sheets": [

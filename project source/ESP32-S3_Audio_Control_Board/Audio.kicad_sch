@@ -11,24 +11,26 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -11.43 24.13 0)
+			(property "Reference" "U4"
+				(at -13.208 24.13 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "TAS5805MPWP"
-				(at 8.89 24.13 0)
+				(at 0 -9.652 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Package_SO:TSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP3.4x9.7mm_Mask3.1x4.05mm_ThermalVias"
@@ -89,7 +91,7 @@
 			(symbol "TAS5805MPWP_0_1"
 				(rectangle
 					(start -12.7 22.86)
-					(end 12.7 -22.86)
+					(end 12.7 -29.21)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -119,7 +121,7 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 7.62 180)
+					(at 15.24 5.08 180)
 					(length 2.54)
 					(name "BST_A-"
 						(effects
@@ -155,7 +157,7 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 17.78 180)
+					(at 15.24 20.32 180)
 					(length 2.54)
 					(name "BST_A+"
 						(effects
@@ -175,7 +177,7 @@
 			)
 			(symbol "TAS5805MPWP_1_1"
 				(pin power_in line
-					(at -2.54 -25.4 90)
+					(at -2.54 -31.75 90)
 					(length 2.54)
 					(name "DGND"
 						(effects
@@ -193,7 +195,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 25.4 270)
+					(at -5.08 25.4 270)
 					(length 2.54)
 					(name "DVDD"
 						(effects
@@ -229,7 +231,7 @@
 					)
 				)
 				(pin power_out line
-					(at 15.24 -12.7 180)
+					(at 15.24 -21.59 180)
 					(length 2.54)
 					(name "VR_DIG"
 						(effects
@@ -247,7 +249,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -25.4 90)
+					(at -2.54 -31.75 90)
 					(length 2.54)
 					(hide yes)
 					(name "DGND"
@@ -374,7 +376,7 @@
 					)
 				)
 				(pin power_out line
-					(at 15.24 -15.24 180)
+					(at 15.24 -26.67 180)
 					(length 2.54)
 					(name "AVDD"
 						(effects
@@ -392,7 +394,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -25.4 90)
+					(at 0 -31.75 90)
 					(length 2.54)
 					(name "AGND"
 						(effects
@@ -447,7 +449,7 @@
 					)
 				)
 				(pin output line
-					(at 15.24 0 180)
+					(at 15.24 -5.08 180)
 					(length 2.54)
 					(name "OUT_B+"
 						(effects
@@ -465,7 +467,7 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 2.54 180)
+					(at 15.24 -1.27 180)
 					(length 2.54)
 					(name "BST_B+"
 						(effects
@@ -483,7 +485,7 @@
 					)
 				)
 				(pin power_in line
-					(at 2.54 -25.4 90)
+					(at 2.54 -31.75 90)
 					(length 2.54)
 					(name "PGND"
 						(effects
@@ -501,7 +503,7 @@
 					)
 				)
 				(pin output line
-					(at 15.24 -5.08 180)
+					(at 15.24 -11.43 180)
 					(length 2.54)
 					(name "OUT_B-"
 						(effects
@@ -519,7 +521,7 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 -7.62 180)
+					(at 15.24 -15.24 180)
 					(length 2.54)
 					(name "BST_B-"
 						(effects
@@ -537,7 +539,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -25.4 90)
+					(at 2.54 -31.75 90)
 					(length 2.54)
 					(hide yes)
 					(name "PGND"
@@ -612,7 +614,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -25.4 90)
+					(at 5.08 -31.75 90)
 					(length 2.54)
 					(name "EP"
 						(effects
@@ -622,6 +624,713 @@
 						)
 					)
 					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:CP"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CP"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CP_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "CP_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SparkFun-PowerSymbol:3.3V"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -767,24 +1476,360 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "pspice:INDUCTOR"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "INDUCTOR"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor symbol for simulation only"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "INDUCTOR_0_1"
+				(arc
+					(start -5.08 0)
+					(mid -3.81 1.2645)
+					(end -2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.27 1.2645)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 1.27 1.2645)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 3.81 1.2645)
+					(end 5.08 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "INDUCTOR_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "I2C Address: 0x58\n"
+		(exclude_from_sim no)
+		(at 133.604 143.002 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bdff70f9-81a7-4c11-a839-ca4e29ef1875")
 	)
 	(junction
-		(at 130.81 125.73)
+		(at 167.64 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "02a8be9e-bf80-4750-9b9c-eeea4cde6abb")
+		(uuid "04de103b-c5e2-4e60-8c89-3df600149eb1")
 	)
 	(junction
-		(at 135.89 125.73)
+		(at 191.77 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b40d8aa7-9e08-484d-a66f-fd1deeb75d55")
+		(uuid "09469c5c-5602-45a6-afbf-d92071cd7b40")
 	)
 	(junction
-		(at 133.35 125.73)
+		(at 162.56 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fca28de6-43e1-43cd-a86a-9b2fcb7d4225")
+		(uuid "0e3cc2c3-121a-4f8c-bb56-83ef743d938e")
+	)
+	(junction
+		(at 101.6 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10b73d76-b853-4e37-b999-ff19011d1dd5")
+	)
+	(junction
+		(at 167.64 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25077289-2da3-418d-9156-159d21988938")
+	)
+	(junction
+		(at 143.51 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "479b4e09-64fd-41ef-8c29-b2e896146a3a")
+	)
+	(junction
+		(at 191.77 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59f2e174-b978-48ec-a50b-df3ffc6627d0")
+	)
+	(junction
+		(at 110.49 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ae8d68d-1ecf-4074-ad38-ddda33fdde5f")
+	)
+	(junction
+		(at 101.6 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63ffb3db-2834-42e0-8003-860df4d5c615")
+	)
+	(junction
+		(at 156.21 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "658ab875-9027-42b9-80a2-c9ee45dd69b6")
+	)
+	(junction
+		(at 161.29 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7969cd41-e487-414a-b296-d6365a4efbf7")
+	)
+	(junction
+		(at 156.21 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "843d4b24-6605-4316-b180-091268a0ecd8")
+	)
+	(junction
+		(at 180.34 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8be24e43-5fdd-41d3-9399-1d948a88748a")
+	)
+	(junction
+		(at 130.81 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91d2f4e3-1b5a-4f87-87a3-7937e75f3b56")
+	)
+	(junction
+		(at 120.65 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d3a6205-fdbf-4e5a-90b9-8bafe069f442")
+	)
+	(junction
+		(at 162.56 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afa7c71d-90c0-4ba3-850c-ff0c9e77e588")
+	)
+	(junction
+		(at 135.89 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b244694f-65b1-4c88-a098-117163007e3c")
+	)
+	(junction
+		(at 177.8 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2c98dde-e5ec-4ff4-8cc4-012f99a2b6d6")
+	)
+	(junction
+		(at 133.35 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8e72600-c069-449a-873a-0ce6ec6e584d")
+	)
+	(junction
+		(at 177.8 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d91cb31a-20f8-40dc-9e47-e25b259fbec2")
+	)
+	(junction
+		(at 120.65 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de6b96ab-e5cd-4e11-8c8c-1bfa6e9d31a7")
+	)
+	(junction
+		(at 143.51 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e45c94fe-9eb7-4280-aa51-32ebc7afb18b")
+	)
+	(junction
+		(at 180.34 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea19e66a-d30a-4fd3-9b29-96edb25a2018")
+	)
+	(no_connect
+		(at 148.59 114.3)
+		(uuid "47bf31a6-346f-49f9-bdf4-f8c1f717d9c2")
+	)
+	(no_connect
+		(at 148.59 110.49)
+		(uuid "7d25e64c-4b80-4daa-a8b2-d436f2864900")
+	)
+	(no_connect
+		(at 148.59 100.33)
+		(uuid "89967bb5-d945-4190-9b67-72773683a65f")
+	)
+	(no_connect
+		(at 118.11 106.68)
+		(uuid "8aa82859-eb65-4bee-b4b9-4255de950768")
+	)
+	(no_connect
+		(at 148.59 104.14)
+		(uuid "b901ac6a-b902-4ecd-8236-47fe34bc28f2")
+	)
+	(wire
+		(pts
+			(xy 162.56 93.98) (xy 163.83 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "026c3ee9-b30d-4b36-8d3f-76f9af66b25c")
+	)
+	(wire
+		(pts
+			(xy 110.49 55.88) (xy 110.49 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "065f5dfd-695a-42c2-a901-a8c4c448582c")
 	)
 	(wire
 		(pts
@@ -798,43 +1843,343 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 124.46) (xy 133.35 125.73)
+			(xy 191.77 55.88) (xy 191.77 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a04a41d-3f01-4cb2-a144-0d8517080f8d")
+		(uuid "1afc1875-8e07-4242-bcbf-0455d3a0f370")
 	)
 	(wire
 		(pts
-			(xy 135.89 124.46) (xy 135.89 125.73)
+			(xy 143.51 57.15) (xy 156.21 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b6b67b2-3b61-48ca-b2e2-5135a3be04f0")
+		(uuid "1b16340a-bc53-4588-9589-346d78e25a78")
 	)
 	(wire
 		(pts
-			(xy 138.43 125.73) (xy 135.89 125.73)
+			(xy 138.43 130.81) (xy 138.43 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3109dda6-c8fd-4aa9-a650-c21802aec744")
+		(uuid "1bc6546b-7a71-4029-b65b-680d777d69d1")
 	)
 	(wire
 		(pts
-			(xy 130.81 124.46) (xy 130.81 125.73)
+			(xy 130.81 130.81) (xy 130.81 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43da5378-702f-4667-8b96-c597bb0e5a4a")
+		(uuid "1f871140-94b5-47a1-8b7b-975dbd567811")
+	)
+	(wire
+		(pts
+			(xy 101.6 71.12) (xy 101.6 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213de83d-4d9e-4671-89b3-6853eefb2cc8")
+	)
+	(wire
+		(pts
+			(xy 148.59 78.74) (xy 151.13 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f59bd9-413c-4b2b-b580-b60019b155f8")
+	)
+	(wire
+		(pts
+			(xy 120.65 55.88) (xy 120.65 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "274f9580-84de-4a31-909a-618cc7068992")
+	)
+	(wire
+		(pts
+			(xy 156.21 55.88) (xy 156.21 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29635749-9263-469a-a047-5ad3584a81b6")
+	)
+	(wire
+		(pts
+			(xy 135.89 130.81) (xy 135.89 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a6143b4-868c-40c3-9ce0-0f4f0f199ca6")
+	)
+	(wire
+		(pts
+			(xy 161.29 120.65) (xy 157.48 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bdeb001-a008-4447-a2ba-0c9211a42b74")
+	)
+	(wire
+		(pts
+			(xy 191.77 57.15) (xy 180.34 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ac7c19-62f1-4129-b04e-c373a85ded61")
+	)
+	(wire
+		(pts
+			(xy 201.93 46.99) (xy 191.77 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3680c6f8-5e32-4e10-b33c-2ed5937168fc")
+	)
+	(wire
+		(pts
+			(xy 156.21 46.99) (xy 156.21 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e7d145-4c6b-4adf-a7af-ea13f477dad2")
+	)
+	(wire
+		(pts
+			(xy 135.89 132.08) (xy 133.35 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a37da7f-4036-4800-8519-219af5fecaaa")
+	)
+	(wire
+		(pts
+			(xy 120.65 57.15) (xy 120.65 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db66a7c-de35-40cd-82e1-aad0c01f9011")
+	)
+	(wire
+		(pts
+			(xy 177.8 93.98) (xy 189.23 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f58956-ca93-4772-9f9e-7d7f63f4730f")
+	)
+	(wire
+		(pts
+			(xy 162.56 88.9) (xy 162.56 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47735727-f00a-4d31-a4fb-00f11964f7fb")
+	)
+	(wire
+		(pts
+			(xy 167.64 57.15) (xy 156.21 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b3fab39-2b50-4b4f-9ba8-42e2abbe2bc1")
+	)
+	(wire
+		(pts
+			(xy 148.59 88.9) (xy 162.56 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f46fae5-7d30-4d3d-bb5f-382f7c2c1ec6")
+	)
+	(wire
+		(pts
+			(xy 167.64 46.99) (xy 156.21 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "517aa180-c3ae-4c88-80ff-019382c5e922")
+	)
+	(wire
+		(pts
+			(xy 101.6 72.39) (xy 110.49 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51fc9d9e-2c3d-45df-b27a-2ff38bc65b91")
+	)
+	(wire
+		(pts
+			(xy 110.49 73.66) (xy 110.49 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54188e5e-9627-4767-bd74-eca71b980ca3")
+	)
+	(wire
+		(pts
+			(xy 161.29 125.73) (xy 161.29 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "554328fa-ea30-401d-92e9-baa9a9a0bf1a")
+	)
+	(wire
+		(pts
+			(xy 157.48 125.73) (xy 161.29 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "591724b3-daaf-4948-80ef-a83db7ab334c")
+	)
+	(wire
+		(pts
+			(xy 128.27 72.39) (xy 128.27 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a603d2f-4ea1-4ab0-80d6-cfa81ae0c15c")
+	)
+	(wire
+		(pts
+			(xy 177.8 78.74) (xy 189.23 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ef81506-5061-4433-8508-7c338b331ae6")
+	)
+	(wire
+		(pts
+			(xy 143.51 57.15) (xy 143.51 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60227f8a-36ed-45fb-896a-24289b15dc73")
+	)
+	(wire
+		(pts
+			(xy 201.93 57.15) (xy 191.77 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619cd95b-490a-45e4-86e3-b0b76e32f91f")
+	)
+	(wire
+		(pts
+			(xy 133.35 72.39) (xy 133.35 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "669bcac9-9378-4633-a672-b858cd8d5acd")
+	)
+	(wire
+		(pts
+			(xy 133.35 130.81) (xy 133.35 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6773cbd9-b80a-426d-9ca7-db433cb8a507")
+	)
+	(wire
+		(pts
+			(xy 180.34 48.26) (xy 180.34 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ad3f4d-e315-452a-a44c-00a990f623af")
+	)
+	(wire
+		(pts
+			(xy 158.75 78.74) (xy 162.56 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7497c377-b214-40f8-83b7-df6b7695830b")
+	)
+	(wire
+		(pts
+			(xy 148.59 93.98) (xy 151.13 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750b65fa-6686-4500-a2c4-b9e978019de6")
+	)
+	(wire
+		(pts
+			(xy 143.51 46.99) (xy 156.21 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "751a191c-16bc-488e-beeb-28292e0d2801")
 	)
 	(wire
 		(pts
@@ -848,6 +2193,96 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 86.36) (xy 110.49 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "771d5910-839c-4b70-8eca-7923aef48f8d")
+	)
+	(wire
+		(pts
+			(xy 149.86 125.73) (xy 148.59 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77711293-5a6a-451f-a431-f20676fd80d8")
+	)
+	(wire
+		(pts
+			(xy 143.51 46.99) (xy 143.51 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78791e5d-b3fe-43af-bbe9-1b820759eb34")
+	)
+	(wire
+		(pts
+			(xy 176.53 93.98) (xy 177.8 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c1794dc-8551-408f-9e70-c5da6f44c677")
+	)
+	(wire
+		(pts
+			(xy 149.86 120.65) (xy 148.59 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c9aca3d-0d46-4e88-bbd4-632dbbf88def")
+	)
+	(wire
+		(pts
+			(xy 167.64 46.99) (xy 180.34 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e24da05-a7a6-4288-b291-fc855066ccdd")
+	)
+	(wire
+		(pts
+			(xy 110.49 48.26) (xy 110.49 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb16d95-c625-4474-ad81-5199b348d548")
+	)
+	(wire
+		(pts
+			(xy 110.49 86.36) (xy 110.49 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "839fdb5b-0f8f-40ca-b47f-db3e94ba248b")
+	)
+	(wire
+		(pts
+			(xy 133.35 132.08) (xy 130.81 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85506a17-77c2-4a51-9e39-713442fc2dbe")
+	)
+	(wire
+		(pts
 			(xy 115.57 99.06) (xy 118.11 99.06)
 		)
 		(stroke
@@ -858,43 +2293,283 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 125.73) (xy 133.35 125.73)
+			(xy 138.43 132.08) (xy 135.89 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "948a4621-3a56-4c64-bbf8-24a1f2e61c9a")
+		(uuid "9038d5a9-e82c-42f4-99a4-b9ec48deb6ea")
 	)
 	(wire
 		(pts
-			(xy 130.81 125.73) (xy 130.81 127)
+			(xy 101.6 83.82) (xy 101.6 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94bdb378-ad97-4459-9301-fc24f9aaa3d9")
+		(uuid "945db80b-cf99-4d34-b3ba-fae738116adf")
 	)
 	(wire
 		(pts
-			(xy 133.35 125.73) (xy 130.81 125.73)
+			(xy 130.81 132.08) (xy 130.81 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5a4900e-84bb-4906-b3ad-180ecbc0fe29")
+		(uuid "94daf351-d916-4e09-9ed3-00845f78e78b")
 	)
 	(wire
 		(pts
-			(xy 138.43 124.46) (xy 138.43 125.73)
+			(xy 161.29 127) (xy 161.29 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7ab3e61-d654-4689-87b3-a16912497211")
+		(uuid "94f766e7-3014-4aa0-9c94-e93ca379e1cb")
+	)
+	(wire
+		(pts
+			(xy 118.11 83.82) (xy 101.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "976c608c-7475-4092-b49f-94641a5a734d")
+	)
+	(wire
+		(pts
+			(xy 115.57 104.14) (xy 118.11 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9b1358-e778-4f98-adf8-e3223666bfbb")
+	)
+	(wire
+		(pts
+			(xy 201.93 55.88) (xy 201.93 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d77abba-fbd5-4a3a-931b-be8591aa0e54")
+	)
+	(wire
+		(pts
+			(xy 110.49 86.36) (xy 118.11 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ed54eb-c3fa-444c-9738-aa1f695a84ed")
+	)
+	(wire
+		(pts
+			(xy 110.49 46.99) (xy 120.65 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b64828-2609-4c0a-80fa-1aec15ec8af8")
+	)
+	(wire
+		(pts
+			(xy 180.34 55.88) (xy 180.34 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaba3d62-b25c-4a85-95ec-34ce69b816af")
+	)
+	(wire
+		(pts
+			(xy 110.49 57.15) (xy 120.65 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed0e020-ecd2-423b-927f-790b38337231")
+	)
+	(wire
+		(pts
+			(xy 143.51 45.72) (xy 143.51 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b31751d0-c58f-40e5-a26c-1da06f98c7ec")
+	)
+	(wire
+		(pts
+			(xy 143.51 55.88) (xy 143.51 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a6a85c-ee7e-48a3-84ea-19bd4db9547b")
+	)
+	(wire
+		(pts
+			(xy 97.79 83.82) (xy 101.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bda37ca0-5fc6-4371-83a4-4f3a8a87719b")
+	)
+	(wire
+		(pts
+			(xy 191.77 46.99) (xy 180.34 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf2708b5-1fd8-4fef-a692-dc863ce963d1")
+	)
+	(wire
+		(pts
+			(xy 120.65 48.26) (xy 120.65 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf8e436c-c3e7-440d-ba10-a08792cbb35a")
+	)
+	(wire
+		(pts
+			(xy 167.64 57.15) (xy 180.34 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7430744-a3b2-4e9f-8917-442b373f0c62")
+	)
+	(wire
+		(pts
+			(xy 176.53 78.74) (xy 177.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c972c126-9889-4a76-b8c2-185f75a78bdd")
+	)
+	(wire
+		(pts
+			(xy 191.77 46.99) (xy 191.77 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce0b605d-666d-4330-837c-bfe3f8a23cd3")
+	)
+	(wire
+		(pts
+			(xy 167.64 55.88) (xy 167.64 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce0c2776-1dca-4634-8105-4dfbbd4cbece")
+	)
+	(wire
+		(pts
+			(xy 158.75 93.98) (xy 162.56 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da1ce71f-f8d4-41aa-a819-b07e0b17624d")
+	)
+	(wire
+		(pts
+			(xy 101.6 72.39) (xy 101.6 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60d6946-75a6-48f3-8d04-2ff24c0f4e17")
+	)
+	(wire
+		(pts
+			(xy 201.93 48.26) (xy 201.93 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed43e31f-f46b-45d7-9367-11881b4ed927")
+	)
+	(wire
+		(pts
+			(xy 162.56 83.82) (xy 162.56 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eea9ddb2-675d-4743-a42a-24f1c71c3a5d")
+	)
+	(wire
+		(pts
+			(xy 162.56 78.74) (xy 163.83 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef4bc081-95ae-42e6-9411-a164992b2935")
+	)
+	(wire
+		(pts
+			(xy 120.65 46.99) (xy 120.65 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1188a76-bb00-4b9f-b2be-21a3aaa7ecca")
+	)
+	(wire
+		(pts
+			(xy 167.64 46.99) (xy 167.64 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f537423e-336b-413a-9cb7-843774c04d57")
+	)
+	(wire
+		(pts
+			(xy 148.59 83.82) (xy 162.56 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa0efb0a-0b40-4250-8316-41fc07a000a0")
 	)
 	(wire
 		(pts
@@ -905,6 +2580,54 @@
 			(type default)
 		)
 		(uuid "ff68d7c5-f554-4acc-868b-b153bb422caf")
+	)
+	(global_label "ADR_FAULT"
+		(shape bidirectional)
+		(at 97.79 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b1fe02c-3019-4be5-a3a9-6c498bd29cf4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.5939 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SPK_P"
+		(shape output)
+		(at 189.23 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e2c1f41-52ea-4c27-8996-f26c088840f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.2023 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "SDA"
 		(shape bidirectional)
@@ -955,8 +2678,8 @@
 		)
 	)
 	(global_label "DOUT"
-		(shape output)
-		(at 115.57 106.68 180)
+		(shape input)
+		(at 115.57 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -966,7 +2689,7 @@
 		)
 		(uuid "85fc6535-e8b9-4fad-82c9-46cbd1b015e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.6862 106.68 0)
+			(at 107.6862 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -975,6 +2698,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "SPK_N"
+		(shape output)
+		(at 189.23 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ef3aec5-5539-438a-ba89-c9e09b6ef37d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.2628 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -991,6 +2738,30 @@
 		(uuid "a0240497-e029-413c-bad9-1431a2abdebe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 109.0772 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PDN"
+		(shape input)
+		(at 97.79 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c7ff6d9e-505a-4430-bdf0-6d359ad4d737")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.9343 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1027,6 +2798,760 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 120.65 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "01558b05-9085-4292-a31d-a0e14819cec2")
+		(property "Reference" "C26"
+			(at 123.444 51.308 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 123.444 53.594 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 121.6152 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588933581779709952-C71687.pdf?response-content-disposition=attachment%3B%20filename%3DC71687.pdf%3B%20filename%2A%3DUTF-8%27%27C71687.pdf&x-oss-date=20260701T135229Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nxCsvRl4cT1rujb2GJgXJgf9t2gofClzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qdtdtBBY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWiptDMB90tHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIEKL%2FAKKWD5sagAEPEI%2BnXsiosgKaOvk01oQiVJPGVRrKu%2FrEk42ZNlnsDQBAF0efd5V9lCOR%2FqDuWGuZZY6Hm%2BUNg9NLzWBzt%2B3Y5omRQ8OaZTBChIakZE1pZEgG%2BOl5oG8Ru7YUzmx9AfCOiA5eIg%2Fdezg%2Bp5UcC%2BsWFkt%2BvND3e0vQSpTG82D3sSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZDAqezX2ayHmG8er5sTZmBiu%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=7778ceb79d4aea254572d5565c8cf6986f0b7a0a88a94ed0acb6f0cbd4d4fb81"
+			(at 120.65 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Murata Electronics"
+			(at 120.65 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" "GRM155R71A104KA01D"
+			(at 120.65 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 120.65 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" "C71687"
+			(at 120.65 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "100nF 10V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 120.65 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1193fc5-31e4-4cbb-9b8f-70e60819023b")
+		)
+		(pin "2"
+			(uuid "93fcef89-47fc-4469-a28d-f075970882b6")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:INDUCTOR")
+		(at 170.18 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "11cc7ee9-efdf-4b81-b188-60586f28a21e")
+		(property "Reference" "L4"
+			(at 166.37 91.186 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 171.958 91.186 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_KOHERelec_MDA7030"
+			(at 170.18 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8757062983157452800-C436568.pdf?response-content-disposition=attachment%3B%20filename%3DC436568.pdf%3B%20filename%2A%3DUTF-8%27%27C436568.pdf&x-oss-date=20260701T153149Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nnfvf8hroY0PCZRFfCnHMCSOJC16rBizz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qYA12hdY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWopgz%2BsnGnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIePqE3aKWD5sagAF8ccWnCQEjxI25bixWS9flNyCY3ORSRhNyzzqNi4qQWT6mki5vcuc9y7Lq4kluKW%2BleVs5GNJOayDhlz11dAo6usxtqOndcVivA%2FB2ALnQ0SPLVm1hNA6XlhyddCW4ScTCeZKzdNFpNW0cRFtj2KLvRa%2F6ozkvb%2BzgXoVCChIOfSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZR5MHke9g2rFqsxsWDmn8oji%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=d72dc4c65b61f6aa1c7b4b5673bb165e25c8963528a92a7607aeced746fff9d1"
+			(at 170.18 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "PROD Tech"
+			(at 170.18 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" "PSPMAA063T-100M-ANP"
+			(at 170.18 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 170.18 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" "C436568"
+			(at 170.18 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "10uH 5.5A 5A 68mΩ ±20% SMD,7.1x6.6mm Power Inductors ROHS"
+			(at 170.18 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e790e83c-d9d1-4e10-b482-eeef3cb47dbc")
+		)
+		(pin "2"
+			(uuid "0cb99050-a84d-490c-8ab6-8920332a3fcb")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 179.07 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16cd5584-c393-4814-baef-e7649ca7dbac")
+		(property "Reference" "H3"
+			(at 181.61 126.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 181.61 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 179.07 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 179.07 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 110.49 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "18192f28-ffca-4f0e-9657-ce151ef168c7")
+		(property "Reference" "C25"
+			(at 113.284 51.308 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 113.284 53.594 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 111.4552 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588949499452526592-C71633.pdf?response-content-disposition=attachment%3B%20filename%3DC71633.pdf%3B%20filename%2A%3DUTF-8%27%27C71633.pdf&x-oss-date=20260701T133254Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nxCsvRl4cT1rujb2GJgXJgf9t2gofClzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qdtdtBBY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWiptDMB90tHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIEKL%2FAKKWD5sagAEPEI%2BnXsiosgKaOvk01oQiVJPGVRrKu%2FrEk42ZNlnsDQBAF0efd5V9lCOR%2FqDuWGuZZY6Hm%2BUNg9NLzWBzt%2B3Y5omRQ8OaZTBChIakZE1pZEgG%2BOl5oG8Ru7YUzmx9AfCOiA5eIg%2Fdezg%2Bp5UcC%2BsWFkt%2BvND3e0vQSpTG82D3sSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZDAqezX2ayHmG8er5sTZmBiu%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=7303ce774dcc24d9d89f9debce5fae020455e0ab8b9c3573da4adfc596b909bf"
+			(at 110.49 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Murata Electronics"
+			(at 110.49 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" "GRM188R61A475KE15D"
+			(at 110.49 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 110.49 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" "C71633"
+			(at 110.49 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "10V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 110.49 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1940dde3-207c-47e6-86bd-76e9c5eec021")
+		)
+		(pin "2"
+			(uuid "5fad8a4d-652a-49de-8252-db8fa67e0a20")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 154.94 93.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "18d2893c-93fe-428a-8f1c-aa34a312b7e6")
+		(property "Reference" "C35"
+			(at 160.02 92.456 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220n"
+			(at 161.29 95.504 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 158.75 93.0148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588894348083257344-C97857.pdf?response-content-disposition=attachment%3B%20filename%3DC97857.pdf%3B%20filename%2A%3DUTF-8%27%27C97857.pdf&x-oss-date=20260701T145147Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5mGMu7yq6t7%2BYSbU032jDY9fP0elffDtzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qYoBgxZY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWorF0MxD0tHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMINqROe6KWD5sagAGIyW1VfLNcNhLA4FVRBBhuu18r56OHpC6cj02CplgHx8kjgO4CC6Hc6qXysNZlacsu5LVl2PhRl6bbVwYZTEPMsBvjoAJ8nGq9MSZZpaFD0RTz0gD%2FtxFtKtwcJ4M5rg5EKf6uk6H2jAuLBVzwZEIvfiUqR2j%2BMGhyJQ8tSaduSiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZ3yTFFtZNFpQkGh6hpr2z2hU%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=dc15c6cfe5093e11cc6e61b033221bf4616baadd95d029988eb2180eddb7e9e6"
+			(at 154.94 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Murata Electronics"
+			(at 154.94 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" "GCM188R71H224KA64D"
+			(at 154.94 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 154.94 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" "C97857"
+			(at 154.94 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "220nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 154.94 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a92a8fe8-2a5c-48f4-a47c-83a43d780227")
+		)
+		(pin "2"
+			(uuid "13836949-f7c0-406b-b5c2-dcf7735e08ec")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 120.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1dee4615-1752-466b-b358-8d8529d01955")
+		(property "Reference" "C37"
+			(at 159.004 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 157.734 118.618 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 157.48 119.6848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588919213754339328-C76999.pdf?response-content-disposition=attachment%3B%20filename%3DC76999.pdf%3B%20filename%2A%3DUTF-8%27%27C76999.pdf&x-oss-date=20260701T135722Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nxCsvRl4cT1rujb2GJgXJgf9t2gofClzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qdtdtBBY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWiptDMB90tHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIEKL%2FAKKWD5sagAEPEI%2BnXsiosgKaOvk01oQiVJPGVRrKu%2FrEk42ZNlnsDQBAF0efd5V9lCOR%2FqDuWGuZZY6Hm%2BUNg9NLzWBzt%2B3Y5omRQ8OaZTBChIakZE1pZEgG%2BOl5oG8Ru7YUzmx9AfCOiA5eIg%2Fdezg%2Bp5UcC%2BsWFkt%2BvND3e0vQSpTG82D3sSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZDAqezX2ayHmG8er5sTZmBiu%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b8fede16737b051e1cafb17f2058d362daf67560673256911be722e2a16a67c5"
+			(at 153.67 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Murata Electronics"
+			(at 153.67 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" "GRM155R61A105KE15D"
+			(at 153.67 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 153.67 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" "C76999"
+			(at 153.67 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "10V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 153.67 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "269c9ae9-ea09-4e5c-88b1-cbba62f53b3d")
+		)
+		(pin "2"
+			(uuid "63d9c6db-0223-49cf-8a74-1fcc78972ad5")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Audio:TAS5805MPWP")
 		(at 133.35 99.06 0)
 		(unit 1)
@@ -1049,7 +3574,7 @@
 			)
 		)
 		(property "Value" "TAS5805MPWP"
-			(at 134.874 74.93 0)
+			(at 133.35 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1189,8 +3714,8 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:GND")
-		(at 130.81 127 0)
+		(lib_id "Device:CP")
+		(at 167.64 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1198,9 +3723,763 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "81406bbb-1592-46f7-8657-1cddf3056f74")
-		(property "Reference" "#GND_0119"
-			(at 130.81 127 0)
+		(uuid "2e1ca463-a6a3-4e1d-9667-a88829069ad5")
+		(property "Reference" "C29"
+			(at 170.6372 50.927 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "390uF"
+			(at 170.6372 53.213 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
+			(at 168.6052 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8756669556364857344-C46550405.pdf?response-content-disposition=attachment%3B%20filename%3DC46550405.pdf%3B%20filename%2A%3DUTF-8%27%27C46550405.pdf&x-oss-date=20260701T131542Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vBLursh6xl8LiZRWTwt0oCf%2B1kmY3A0zz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qecB%2FhJY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhr0fMp2NgPyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIJdGSSaKWD5sagAGqRbnQp6L%2FTYXOiV2Ius6w6UziKtQ92vTv9B0nGW0Y3svNbkS0MrbfuZVkO9YDVSKhESTJnb9DVYhzfVfHDMmXkDVxob%2FrGv%2B2SPVjuzxFU8J1L0hOXVyiqPSpR5%2Bqmmi3Ybx8Lvn2exyx%2BPGmhSRfb1P6McCh0WyYua8z%2F1D15CAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXtePXjsDGzrGBASJWsbHvHk1%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=8e717336cf1197820a9671e1c1e8083b767a8773f89509dc172b0a073b72b0db"
+			(at 167.64 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Honor Elec"
+			(at 167.64 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" "HV1E397M0810PZ"
+			(at 167.64 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "-55℃~+105℃ 10.5mm 2000hrs 25V 3.1mm 390uF 8mm ±20% SMD,D8xL10.5mm Polymer Aluminum Capacitors ROHS"
+			(at 167.64 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "C5246545"
+			(at 167.64 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" "C46550405"
+			(at 167.64 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "095e283c-ab0b-4d1b-8cb6-c5d69ba45215")
+		)
+		(pin "2"
+			(uuid "6d859465-5d89-49ba-b44c-86953dfd9f8d")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 125.73 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3c0f5886-20a0-4e0c-96f3-e20863dc8141")
+		(property "Reference" "C38"
+			(at 159.004 122.428 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 157.988 124.206 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 157.48 124.7648 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588919213754339328-C76999.pdf?response-content-disposition=attachment%3B%20filename%3DC76999.pdf%3B%20filename%2A%3DUTF-8%27%27C76999.pdf&x-oss-date=20260701T135722Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nxCsvRl4cT1rujb2GJgXJgf9t2gofClzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qdtdtBBY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWiptDMB90tHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIEKL%2FAKKWD5sagAEPEI%2BnXsiosgKaOvk01oQiVJPGVRrKu%2FrEk42ZNlnsDQBAF0efd5V9lCOR%2FqDuWGuZZY6Hm%2BUNg9NLzWBzt%2B3Y5omRQ8OaZTBChIakZE1pZEgG%2BOl5oG8Ru7YUzmx9AfCOiA5eIg%2Fdezg%2Bp5UcC%2BsWFkt%2BvND3e0vQSpTG82D3sSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZDAqezX2ayHmG8er5sTZmBiu%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b8fede16737b051e1cafb17f2058d362daf67560673256911be722e2a16a67c5"
+			(at 153.67 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Murata Electronics"
+			(at 153.67 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" "GRM155R61A105KE15D"
+			(at 153.67 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 153.67 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" "C76999"
+			(at 153.67 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "10V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 153.67 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19574e5a-0161-49d7-8c87-b2780060d80a")
+		)
+		(pin "2"
+			(uuid "2a395ad6-4e32-40c9-92ec-154024affd99")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:INDUCTOR")
+		(at 170.18 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "432e326e-578f-4b2a-a11a-e104b9ae2413")
+		(property "Reference" "L3"
+			(at 166.37 75.946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 171.958 75.946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_KOHERelec_MDA7030"
+			(at 170.18 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8757062983157452800-C436568.pdf?response-content-disposition=attachment%3B%20filename%3DC436568.pdf%3B%20filename%2A%3DUTF-8%27%27C436568.pdf&x-oss-date=20260701T153149Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nnfvf8hroY0PCZRFfCnHMCSOJC16rBizz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qYA12hdY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWopgz%2BsnGnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIePqE3aKWD5sagAF8ccWnCQEjxI25bixWS9flNyCY3ORSRhNyzzqNi4qQWT6mki5vcuc9y7Lq4kluKW%2BleVs5GNJOayDhlz11dAo6usxtqOndcVivA%2FB2ALnQ0SPLVm1hNA6XlhyddCW4ScTCeZKzdNFpNW0cRFtj2KLvRa%2F6ozkvb%2BzgXoVCChIOfSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZR5MHke9g2rFqsxsWDmn8oji%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=d72dc4c65b61f6aa1c7b4b5673bb165e25c8963528a92a7607aeced746fff9d1"
+			(at 170.18 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "PROD Tech"
+			(at 170.18 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" "PSPMAA063T-100M-ANP"
+			(at 170.18 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 170.18 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" "C436568"
+			(at 170.18 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "10uH 5.5A 5A 68mΩ ±20% SMD,7.1x6.6mm Power Inductors ROHS"
+			(at 170.18 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "412d04be-8fe9-424b-bdce-a53ee9235ba2")
+		)
+		(pin "2"
+			(uuid "febdd772-7a1d-4122-8254-24e333d92f72")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:CP")
+		(at 143.51 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "449c72af-d07e-4445-97fe-c09ef28f3657")
+		(property "Reference" "C27"
+			(at 146.5072 50.927 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "390uF"
+			(at 146.5072 53.213 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
+			(at 144.4752 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8756669556364857344-C46550405.pdf?response-content-disposition=attachment%3B%20filename%3DC46550405.pdf%3B%20filename%2A%3DUTF-8%27%27C46550405.pdf&x-oss-date=20260701T131542Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vBLursh6xl8LiZRWTwt0oCf%2B1kmY3A0zz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qecB%2FhJY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhr0fMp2NgPyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIJdGSSaKWD5sagAGqRbnQp6L%2FTYXOiV2Ius6w6UziKtQ92vTv9B0nGW0Y3svNbkS0MrbfuZVkO9YDVSKhESTJnb9DVYhzfVfHDMmXkDVxob%2FrGv%2B2SPVjuzxFU8J1L0hOXVyiqPSpR5%2Bqmmi3Ybx8Lvn2exyx%2BPGmhSRfb1P6McCh0WyYua8z%2F1D15CAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXtePXjsDGzrGBASJWsbHvHk1%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=8e717336cf1197820a9671e1c1e8083b767a8773f89509dc172b0a073b72b0db"
+			(at 143.51 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Honor Elec"
+			(at 143.51 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" "HV1E397M0810PZ"
+			(at 143.51 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "-55℃~+105℃ 10.5mm 2000hrs 25V 3.1mm 390uF 8mm ±20% SMD,D8xL10.5mm Polymer Aluminum Capacitors ROHS"
+			(at 143.51 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "C5246545"
+			(at 143.51 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" "C46550405"
+			(at 143.51 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "633ee224-7f83-4a7f-942e-a62fbe482db9")
+		)
+		(pin "2"
+			(uuid "c37cc527-1b3e-4fde-a41c-545934855cd5")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 156.21 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5195ca1e-551c-4e2b-b913-78c71e377d4c")
+		(property "Reference" "C28"
+			(at 159.004 51.308 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 159.004 53.594 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 157.1752 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Murata Electronics"
+			(at 156.21 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" "GRM31CR61E226KE15L"
+			(at 156.21 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 156.21 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" "C77091"
+			(at 156.21 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "22uF 25V X5R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 156.21 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "566e14b0-e594-4c0a-a328-75226edc9164")
+		)
+		(pin "2"
+			(uuid "aa548c2d-0542-49aa-b451-8530f0f6452e")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 179.07 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58e8c549-b859-4410-aed5-1f3dfec13dd3")
+		(property "Reference" "H2"
+			(at 181.61 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 181.61 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 179.07 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 179.07 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 120.65 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6f5d4c78-80e6-47e4-90a6-e86f276f7442")
+		(property "Reference" "#GND_015"
+			(at 120.65 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1212,7 +4491,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 130.81 0)
+			(at 120.65 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1222,7 +4501,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 127 0)
+			(at 120.65 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1234,7 +4513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 127 0)
+			(at 120.65 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1246,7 +4525,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 127 0)
+			(at 120.65 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1256,7 +4535,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 139.7 134.62 0)
+			(at 129.54 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1269,7 +4548,642 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 139.7 137.16 0)
+			(at 129.54 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "27f10c69-21d7-4520-b544-12e6551f1748")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "#GND_015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:3.3V")
+		(at 128.27 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "70470ed5-6fce-420f-9f9d-fe43284fa113")
+		(property "Reference" "#PWR026"
+			(at 128.27 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 128.27 68.834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1c30f6a-e637-4d91-9846-9f284ed822df")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 177.8 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7430eac3-de39-4f15-be8b-2978fdfb316b")
+		(property "Reference" "C34"
+			(at 180.594 81.534 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "680n"
+			(at 180.594 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 176.8348 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8590224199609581568-C668325.pdf?response-content-disposition=attachment%3B%20filename%3DC668325.pdf%3B%20filename%2A%3DUTF-8%27%27C668325.pdf&x-oss-date=20260701T153535Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nnfvf8hroY0PCZRFfCnHMCSOJC16rBizz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qYA12hdY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWopgz%2BsnGnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIePqE3aKWD5sagAF8ccWnCQEjxI25bixWS9flNyCY3ORSRhNyzzqNi4qQWT6mki5vcuc9y7Lq4kluKW%2BleVs5GNJOayDhlz11dAo6usxtqOndcVivA%2FB2ALnQ0SPLVm1hNA6XlhyddCW4ScTCeZKzdNFpNW0cRFtj2KLvRa%2F6ozkvb%2BzgXoVCChIOfSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZR5MHke9g2rFqsxsWDmn8oji%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=f8b41cba1962ecc7a90c39cbe9255a94ef248d5b845cde02b1d7557aaff828b9"
+			(at 177.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Murata Electronics"
+			(at 177.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" "GCM31MR71H684KA55L"
+			(at 177.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 177.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" "C668325"
+			(at 177.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "50V 680nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 177.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a16f8c81-f190-4992-8ae9-04fdfa12bdf1")
+		)
+		(pin "2"
+			(uuid "120005a0-2c99-4260-88d5-cc1039c80414")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 201.93 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7dcb2612-31c6-4d99-9745-1001a5f866c8")
+		(property "Reference" "C32"
+			(at 204.724 51.308 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 204.724 53.594 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 202.8952 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588894536038273024-C354391.pdf?response-content-disposition=attachment%3B%20filename%3DC354391.pdf%3B%20filename%2A%3DUTF-8%27%27C354391.pdf&x-oss-date=20260701T132325Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vBLursh6xl8LiZRWTwt0oCf%2B1kmY3A0zz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qecB%2FhJY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhr0fMp2NgPyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIJdGSSaKWD5sagAGqRbnQp6L%2FTYXOiV2Ius6w6UziKtQ92vTv9B0nGW0Y3svNbkS0MrbfuZVkO9YDVSKhESTJnb9DVYhzfVfHDMmXkDVxob%2FrGv%2B2SPVjuzxFU8J1L0hOXVyiqPSpR5%2Bqmmi3Ybx8Lvn2exyx%2BPGmhSRfb1P6McCh0WyYua8z%2F1D15CAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXtePXjsDGzrGBASJWsbHvHk1%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=80d30d3bdbacf29d262e7bbab5add9ca5d1c9e06a75c55d6a7553c6b8f8cd18b"
+			(at 201.93 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Murata Electronics"
+			(at 201.93 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" "GCJ188R71E104KA12D"
+			(at 201.93 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 201.93 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" "C354391"
+			(at 201.93 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "100nF 25V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 201.93 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de500c70-4363-4e01-ae30-3b970bc6db0a")
+		)
+		(pin "2"
+			(uuid "f43ec237-161e-4aaa-8a02-4c9d2772d296")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:3.3V")
+		(at 143.51 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7f01a5b6-7f38-4760-afe6-3f25575ce5b4")
+		(property "Reference" "#PWR024"
+			(at 143.51 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V"
+			(at 143.51 42.164 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c55ade84-d121-4b4a-ab96-e65738053b21")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 177.8 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7fb3779b-0131-4179-839f-381c46fd3548")
+		(property "Reference" "#GND_017"
+			(at 177.8 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 186.69 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 186.69 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "9516513c-2556-4315-a191-d4bd4a29b641")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "#GND_017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 130.81 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "81406bbb-1592-46f7-8657-1cddf3056f74")
+		(property "Reference" "#GND_020"
+			(at 130.81 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 139.7 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 139.7 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1287,7 +5201,1517 @@
 		(instances
 			(project "ESP32-S3_Audio_Control_Board"
 				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
-					(reference "#GND_0119")
+					(reference "#GND_020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 191.77 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8a0e6bd5-178e-4059-9c49-217aa8f2d799")
+		(property "Reference" "C31"
+			(at 194.564 51.308 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 194.564 53.594 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 192.7352 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588894536038273024-C354391.pdf?response-content-disposition=attachment%3B%20filename%3DC354391.pdf%3B%20filename%2A%3DUTF-8%27%27C354391.pdf&x-oss-date=20260701T132325Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vBLursh6xl8LiZRWTwt0oCf%2B1kmY3A0zz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qecB%2FhJY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhr0fMp2NgPyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIJdGSSaKWD5sagAGqRbnQp6L%2FTYXOiV2Ius6w6UziKtQ92vTv9B0nGW0Y3svNbkS0MrbfuZVkO9YDVSKhESTJnb9DVYhzfVfHDMmXkDVxob%2FrGv%2B2SPVjuzxFU8J1L0hOXVyiqPSpR5%2Bqmmi3Ybx8Lvn2exyx%2BPGmhSRfb1P6McCh0WyYua8z%2F1D15CAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXtePXjsDGzrGBASJWsbHvHk1%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=80d30d3bdbacf29d262e7bbab5add9ca5d1c9e06a75c55d6a7553c6b8f8cd18b"
+			(at 191.77 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Murata Electronics"
+			(at 191.77 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" "GCJ188R71E104KA12D"
+			(at 191.77 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 191.77 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" "C354391"
+			(at 191.77 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "100nF 25V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 191.77 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8260a031-c9e1-476f-9be0-0ce0769fd1ec")
+		)
+		(pin "2"
+			(uuid "bdb5c864-9da7-4352-845c-5bab71b16b6c")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 179.07 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "952ef0c2-2ea9-4322-969e-f0d459d4ea4c")
+		(property "Reference" "H4"
+			(at 181.61 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 181.61 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 179.07 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 179.07 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:3.3V")
+		(at 101.6 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9599fb55-2620-468d-83e4-df85ddcb9ac8")
+		(property "Reference" "#PWR025"
+			(at 101.6 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 101.6 67.564 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "599d67e5-c916-468c-9068-5981bc5f2db1")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:3.3V")
+		(at 120.65 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "971f0c3e-194d-4801-8a8e-bb1502312cf0")
+		(property "Reference" "#PWR023"
+			(at 120.65 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 120.65 42.164 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6995c18-c5a8-47ad-91cd-901cce909b42")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 161.29 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b26f5d11-670f-428d-910f-a591446d55a5")
+		(property "Reference" "#GND_019"
+			(at 161.29 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 170.18 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 170.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "60328883-b957-4a2b-95f2-a226deaaf8c1")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "#GND_019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 143.51 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bef336af-4b1d-46fd-85bc-77c642a8786d")
+		(property "Reference" "#GND_016"
+			(at 143.51 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 152.4 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 152.4 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "bb8f13dc-52a8-405b-9643-83ddefd0e4d2")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "#GND_016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c7e6245f-bfed-4206-8602-085f187bebb5")
+		(property "Reference" "R18"
+			(at 103.378 76.3016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 103.378 78.613 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.822 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8556212101494185984-C25744.pdf?response-content-disposition=attachment%3B%20filename%3DC25744.pdf%3B%20filename%2A%3DUTF-8%27%27C25744.pdf&x-oss-date=20260701T034506Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5raf9ftirts%2FIemRn7Lg1FsVfhmgY%2FgpTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qddXnQNY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWiruQ%2BNdGnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIBBOprqKWD5sagAGRu4XFTjeanEBLM2YErFeGo2E0OwJGo9YUTCDNSmhSqt2vvmffayGUsleGuI3NOrvk0s2P2RRUV%2BAI24q23otPkRzXinXyBWgoARx%2FXsC9QRh69S3xGcluedwXdF%2BwBOBy5ElDRds9%2Bxwl%2FXEjg7TKGq%2F9dP9MRxYBIFfSGjzB9iAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYo4mYgdMKEMDXzgQ9YwJnJKG%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=173cb23c068ce202a14833f7e36ac4a86667edaf791a327ded32bc47007ea441"
+			(at 101.6 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "UNI-ROYAL(Uniroyal Elec)"
+			(at 101.6 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" "0402WGF1002TCE"
+			(at 101.6 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 101.6 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" "C25744"
+			(at 101.6 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 101.6 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68a3ed45-32e5-40e6-a558-2338308356d8")
+		)
+		(pin "2"
+			(uuid "338a8a1a-be7d-4440-bd92-424940b8e119")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 177.8 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c7f82e73-1413-4ab8-a36a-6775c9c9edb9")
+		(property "Reference" "#GND_018"
+			(at 177.8 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 186.69 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 186.69 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "4d40b936-16c6-4536-93aa-ed5ad6949eae")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "#GND_018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 180.34 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cbbf29a7-54ea-40eb-8299-e3bd6cb6014f")
+		(property "Reference" "C30"
+			(at 183.134 51.308 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 183.134 53.594 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 181.3052 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Murata Electronics"
+			(at 180.34 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" "GRM31CR61E226KE15L"
+			(at 180.34 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 180.34 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" "C77091"
+			(at 180.34 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "22uF 25V X5R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 180.34 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3dc217ca-ef96-456e-b5a8-7082d34b6305")
+		)
+		(pin "2"
+			(uuid "47cf5904-0799-4737-97e3-58b013668fbf")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc2854e0-3f0b-4a6b-a522-64344c89d080")
+		(property "Reference" "R19"
+			(at 112.268 76.3016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 112.268 78.613 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 108.712 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579705941362999296-C25900.pdf?response-content-disposition=attachment%3B%20filename%3DC25900.pdf%3B%20filename%2A%3DUTF-8%27%27C25900.pdf&x-oss-date=20260701T140633Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nxCsvRl4cT1rujb2GJgXJgf9t2gofClzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qdtdtBBY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWiptDMB90tHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIEKL%2FAKKWD5sagAEPEI%2BnXsiosgKaOvk01oQiVJPGVRrKu%2FrEk42ZNlnsDQBAF0efd5V9lCOR%2FqDuWGuZZY6Hm%2BUNg9NLzWBzt%2B3Y5omRQ8OaZTBChIakZE1pZEgG%2BOl5oG8Ru7YUzmx9AfCOiA5eIg%2Fdezg%2Bp5UcC%2BsWFkt%2BvND3e0vQSpTG82D3sSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZDAqezX2ayHmG8er5sTZmBiu%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=e9ae5ab8ffad84c319425abd8300bb91be3af8d0e11af71be2aba32e08de3d01"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "UNI-ROYAL(Uniroyal Elec)"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" "0402WGF4701TCE"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" "C25900"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "-55℃~+155℃ 4.7kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b67d03f-a9e7-482c-ad9d-604ff03d78ca")
+		)
+		(pin "2"
+			(uuid "931a1601-85b7-4b66-8010-f7133b8b710a")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 177.8 97.79 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d8b179e3-1bcd-4c42-866a-e24eff0822c0")
+		(property "Reference" "C36"
+			(at 180.594 96.774 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "680n"
+			(at 180.594 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 176.8348 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8590224199609581568-C668325.pdf?response-content-disposition=attachment%3B%20filename%3DC668325.pdf%3B%20filename%2A%3DUTF-8%27%27C668325.pdf&x-oss-date=20260701T153535Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nnfvf8hroY0PCZRFfCnHMCSOJC16rBizz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qYA12hdY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWopgz%2BsnGnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIePqE3aKWD5sagAF8ccWnCQEjxI25bixWS9flNyCY3ORSRhNyzzqNi4qQWT6mki5vcuc9y7Lq4kluKW%2BleVs5GNJOayDhlz11dAo6usxtqOndcVivA%2FB2ALnQ0SPLVm1hNA6XlhyddCW4ScTCeZKzdNFpNW0cRFtj2KLvRa%2F6ozkvb%2BzgXoVCChIOfSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZR5MHke9g2rFqsxsWDmn8oji%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=f8b41cba1962ecc7a90c39cbe9255a94ef248d5b845cde02b1d7557aaff828b9"
+			(at 177.8 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Murata Electronics"
+			(at 177.8 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" "GCM31MR71H684KA55L"
+			(at 177.8 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 177.8 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" "C668325"
+			(at 177.8 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "50V 680nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 177.8 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f2498a4-cdbf-4f5c-8a23-994fc3322c00")
+		)
+		(pin "2"
+			(uuid "b8ba426f-531d-491e-90b5-26df902c7c87")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:3.3V")
+		(at 133.35 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f8e7f38f-99d5-49dd-9420-332251331cd8")
+		(property "Reference" "#PWR027"
+			(at 133.35 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V"
+			(at 133.35 68.834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e8f63f3-e627-4e96-a094-b348acf53e21")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 179.07 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc5fd013-dec9-4c43-90fa-854771574a2c")
+		(property "Reference" "H1"
+			(at 181.61 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 181.61 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 179.07 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 179.07 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 154.94 78.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd4a3384-333c-4a28-bc54-83cb17d6d50f")
+		(property "Reference" "C33"
+			(at 160.02 76.962 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220n"
+			(at 161.29 80.518 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 158.75 77.7748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588894348083257344-C97857.pdf?response-content-disposition=attachment%3B%20filename%3DC97857.pdf%3B%20filename%2A%3DUTF-8%27%27C97857.pdf&x-oss-date=20260701T145147Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5mGMu7yq6t7%2BYSbU032jDY9fP0elffDtzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qYoBgxZY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWorF0MxD0tHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMINqROe6KWD5sagAGIyW1VfLNcNhLA4FVRBBhuu18r56OHpC6cj02CplgHx8kjgO4CC6Hc6qXysNZlacsu5LVl2PhRl6bbVwYZTEPMsBvjoAJ8nGq9MSZZpaFD0RTz0gD%2FtxFtKtwcJ4M5rg5EKf6uk6H2jAuLBVzwZEIvfiUqR2j%2BMGhyJQ8tSaduSiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZ3yTFFtZNFpQkGh6hpr2z2hU%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=dc15c6cfe5093e11cc6e61b033221bf4616baadd95d029988eb2180eddb7e9e6"
+			(at 154.94 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Murata Electronics"
+			(at 154.94 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" "GCM188R71H224KA64D"
+			(at 154.94 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 154.94 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" "C97857"
+			(at 154.94 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "220nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 154.94 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3fb97eb-33c6-403b-927d-088e6452623b")
+		)
+		(pin "2"
+			(uuid "09a155a6-2759-42b8-944b-b8712b3b01d2")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/5503b502-b844-4ddb-9cc9-eaf195c10ce6"
+					(reference "C33")
 					(unit 1)
 				)
 			)
