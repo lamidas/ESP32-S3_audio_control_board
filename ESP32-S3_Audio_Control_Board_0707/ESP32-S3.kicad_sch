@@ -1766,7 +1766,7 @@
 		(uuid "5d8cf4c5-1510-46f0-8817-ca10372dc406")
 	)
 	(junction
-		(at 105.41 100.33)
+		(at 104.14 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "683b1ad7-3267-45ca-b52c-a460efe9548f")
@@ -1889,7 +1889,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 100.33) (xy 137.16 100.33)
+			(xy 104.14 100.33) (xy 137.16 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1969,7 +1969,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 100.33) (xy 105.41 100.33)
+			(xy 102.87 100.33) (xy 104.14 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3145,7 +3145,7 @@
 	)
 	(global_label "BTN"
 		(shape input)
-		(at 104.14 100.33 180)
+		(at 102.87 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3155,7 +3155,7 @@
 		)
 		(uuid "f5855f2c-7114-485e-aff7-31d073cae0a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.5867 100.33 0)
+			(at 96.3167 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4109,7 +4109,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 105.41 107.95 0)
+		(at 104.14 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4119,7 +4119,7 @@
 		(dnp no)
 		(uuid "33e81547-4fa8-4cc4-b90e-ff0afebfb8ab")
 		(property "Reference" "#PWR040"
-			(at 105.41 114.3 0)
+			(at 104.14 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4130,7 +4130,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 111.76 0)
+			(at 104.14 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4140,7 +4140,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 107.95 0)
+			(at 104.14 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4151,7 +4151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 107.95 0)
+			(at 104.14 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4162,7 +4162,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 107.95 0)
+			(at 104.14 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6253,7 +6253,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 105.41 104.14 0)
+		(at 104.14 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6263,7 +6263,7 @@
 		(dnp no)
 		(uuid "d0f055d4-7e2c-44a1-89a9-00ab0516addd")
 		(property "Reference" "C46"
-			(at 108.204 103.378 0)
+			(at 106.934 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6274,7 +6274,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 108.204 105.664 0)
+			(at 106.934 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6285,7 +6285,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 106.3752 107.95 0)
+			(at 105.1052 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6296,7 +6296,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588933581779709952-C71687.pdf?response-content-disposition=attachment%3B%20filename%3DC71687.pdf%3B%20filename%2A%3DUTF-8%27%27C71687.pdf&x-oss-date=20260701T135229Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nxCsvRl4cT1rujb2GJgXJgf9t2gofClzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qdtdtBBY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWiptDMB90tHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIEKL%2FAKKWD5sagAEPEI%2BnXsiosgKaOvk01oQiVJPGVRrKu%2FrEk42ZNlnsDQBAF0efd5V9lCOR%2FqDuWGuZZY6Hm%2BUNg9NLzWBzt%2B3Y5omRQ8OaZTBChIakZE1pZEgG%2BOl5oG8Ru7YUzmx9AfCOiA5eIg%2Fdezg%2Bp5UcC%2BsWFkt%2BvND3e0vQSpTG82D3sSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZDAqezX2ayHmG8er5sTZmBiu%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=7778ceb79d4aea254572d5565c8cf6986f0b7a0a88a94ed0acb6f0cbd4d4fb81"
-			(at 105.41 104.14 0)
+			(at 104.14 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6307,7 +6307,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 104.14 0)
+			(at 104.14 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6318,7 +6318,7 @@
 			)
 		)
 		(property "Mfr" "Murata Electronics"
-			(at 105.41 104.14 0)
+			(at 104.14 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6329,7 +6329,7 @@
 			)
 		)
 		(property "Mfr PN" "GCM155R71H104KE02D"
-			(at 105.41 104.14 0)
+			(at 104.14 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6340,7 +6340,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 105.41 104.14 0)
+			(at 104.14 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6351,7 +6351,7 @@
 			)
 		)
 		(property "Supplier PN" "C85858"
-			(at 105.41 104.14 0)
+			(at 104.14 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6362,7 +6362,7 @@
 			)
 		)
 		(property "Part Description" "CAP CER 100nF 50V X7R 0402"
-			(at 105.41 104.14 0)
+			(at 104.14 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6373,7 +6373,7 @@
 			)
 		)
 		(property "PROD_ID" ""
-			(at 105.41 104.14 0)
+			(at 104.14 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

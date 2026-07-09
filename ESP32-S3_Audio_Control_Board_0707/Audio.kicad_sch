@@ -1732,7 +1732,13 @@
 		(uuid "09469c5c-5602-45a6-afbf-d92071cd7b40")
 	)
 	(junction
-		(at 162.56 78.74)
+		(at 151.13 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a062874-423a-4307-a3ad-a13b6144e5cb")
+	)
+	(junction
+		(at 167.64 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e3cc2c3-121a-4f8c-bb56-83ef743d938e")
@@ -1766,6 +1772,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63ffb3db-2834-42e0-8003-860df4d5c615")
+	)
+	(junction
+		(at 153.67 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72d6caf9-55c8-468f-9d8c-475171b72f59")
 	)
 	(junction
 		(at 161.29 125.73)
@@ -1804,7 +1816,7 @@
 		(uuid "a3d0f2e7-2ea8-4d0f-924d-01607a4b626f")
 	)
 	(junction
-		(at 162.56 93.98)
+		(at 167.64 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "afa7c71d-90c0-4ba3-850c-ff0c9e77e588")
@@ -1816,7 +1828,7 @@
 		(uuid "b244694f-65b1-4c88-a098-117163007e3c")
 	)
 	(junction
-		(at 177.8 93.98)
+		(at 182.88 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2c98dde-e5ec-4ff4-8cc4-012f99a2b6d6")
@@ -1834,7 +1846,7 @@
 		(uuid "d8e72600-c069-449a-873a-0ce6ec6e584d")
 	)
 	(junction
-		(at 177.8 78.74)
+		(at 182.88 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d91cb31a-20f8-40dc-9e47-e25b259fbec2")
@@ -1884,16 +1896,8 @@
 		(uuid "65d54951-525f-4750-beb0-35c096279a90")
 	)
 	(no_connect
-		(at 148.59 110.49)
-		(uuid "7d25e64c-4b80-4daa-a8b2-d436f2864900")
-	)
-	(no_connect
 		(at 148.59 100.33)
 		(uuid "89967bb5-d945-4190-9b67-72773683a65f")
-	)
-	(no_connect
-		(at 148.59 104.14)
-		(uuid "b901ac6a-b902-4ecd-8236-47fe34bc28f2")
 	)
 	(wire
 		(pts
@@ -1907,13 +1911,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 93.98) (xy 163.83 93.98)
+			(xy 167.64 93.98) (xy 168.91 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "026c3ee9-b30d-4b36-8d3f-76f9af66b25c")
+	)
+	(wire
+		(pts
+			(xy 151.13 83.82) (xy 167.64 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03cfb00c-ef02-468f-bc7f-6b8a7a12e8cb")
 	)
 	(wire
 		(pts
@@ -1977,6 +1991,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 104.14) (xy 151.13 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dccb382-bbac-48dd-a3ad-2c46bb33e72c")
+	)
+	(wire
+		(pts
 			(xy 130.81 130.81) (xy 130.81 132.08)
 		)
 		(stroke
@@ -1997,7 +2021,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 78.74) (xy 151.13 78.74)
+			(xy 148.59 78.74) (xy 156.21 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2117,7 +2141,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 93.98) (xy 189.23 93.98)
+			(xy 182.88 93.98) (xy 194.31 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2127,7 +2151,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 88.9) (xy 162.56 93.98)
+			(xy 167.64 88.9) (xy 167.64 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2137,7 +2161,17 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 88.9) (xy 162.56 88.9)
+			(xy 153.67 110.49) (xy 153.67 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a478f86-fdf3-4598-b102-3f7ecd3990d2")
+	)
+	(wire
+		(pts
+			(xy 148.59 88.9) (xy 153.67 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2154,6 +2188,16 @@
 			(type default)
 		)
 		(uuid "51fc9d9e-2c3d-45df-b27a-2ff38bc65b91")
+	)
+	(wire
+		(pts
+			(xy 148.59 110.49) (xy 153.67 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5393fffd-8bac-4b55-93d2-4d34d8e396f4")
 	)
 	(wire
 		(pts
@@ -2177,6 +2221,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 104.14) (xy 151.13 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558c8943-e5a2-4c7f-b24c-e5127e5c6b24")
+	)
+	(wire
+		(pts
 			(xy 157.48 125.73) (xy 161.29 125.73)
 		)
 		(stroke
@@ -2197,7 +2251,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 78.74) (xy 189.23 78.74)
+			(xy 182.88 78.74) (xy 194.31 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2257,7 +2311,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 78.74) (xy 162.56 78.74)
+			(xy 163.83 78.74) (xy 167.64 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2267,7 +2321,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 93.98) (xy 151.13 93.98)
+			(xy 148.59 93.98) (xy 156.21 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2327,7 +2381,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 93.98) (xy 177.8 93.98)
+			(xy 181.61 93.98) (xy 182.88 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2597,7 +2651,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 78.74) (xy 177.8 78.74)
+			(xy 181.61 78.74) (xy 182.88 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2657,7 +2711,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 93.98) (xy 162.56 93.98)
+			(xy 163.83 93.98) (xy 167.64 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2674,6 +2728,16 @@
 			(type default)
 		)
 		(uuid "dc15ff23-5adc-4bac-8978-9aa463fa2f7a")
+	)
+	(wire
+		(pts
+			(xy 153.67 88.9) (xy 167.64 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b8d1fe-3f41-4f24-8f8d-7992afcdcdc3")
 	)
 	(wire
 		(pts
@@ -2707,7 +2771,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 83.82) (xy 162.56 78.74)
+			(xy 167.64 83.82) (xy 167.64 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2717,7 +2781,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 78.74) (xy 163.83 78.74)
+			(xy 167.64 78.74) (xy 168.91 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2747,7 +2811,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 83.82) (xy 162.56 83.82)
+			(xy 148.59 83.82) (xy 151.13 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2801,7 +2865,7 @@
 	)
 	(global_label "SPK_P"
 		(shape output)
-		(at 189.23 78.74 0)
+		(at 194.31 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2811,7 +2875,7 @@
 		)
 		(uuid "2e2c1f41-52ea-4c27-8996-f26c088840f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.2023 78.74 0)
+			(at 203.2823 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2873,7 +2937,7 @@
 	)
 	(global_label "SPK_N"
 		(shape output)
-		(at 189.23 93.98 0)
+		(at 194.31 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2883,7 +2947,7 @@
 		)
 		(uuid "9ef3aec5-5539-438a-ba89-c9e09b6ef37d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.2628 93.98 0)
+			(at 203.3428 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3439,7 +3503,7 @@
 	)
 	(symbol
 		(lib_id "pspice:INDUCTOR")
-		(at 170.18 93.98 0)
+		(at 175.26 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3449,7 +3513,7 @@
 		(dnp no)
 		(uuid "11cc7ee9-efdf-4b81-b188-60586f28a21e")
 		(property "Reference" "L4"
-			(at 166.37 91.186 0)
+			(at 171.45 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3459,7 +3523,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 171.958 91.186 0)
+			(at 177.038 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3469,7 +3533,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_KOHERelec_MDA7030"
-			(at 170.18 93.98 0)
+			(at 175.26 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3480,7 +3544,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8757062983157452800-C436568.pdf?response-content-disposition=attachment%3B%20filename%3DC436568.pdf%3B%20filename%2A%3DUTF-8%27%27C436568.pdf&x-oss-date=20260701T153149Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nnfvf8hroY0PCZRFfCnHMCSOJC16rBizz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qYA12hdY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWopgz%2BsnGnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIePqE3aKWD5sagAF8ccWnCQEjxI25bixWS9flNyCY3ORSRhNyzzqNi4qQWT6mki5vcuc9y7Lq4kluKW%2BleVs5GNJOayDhlz11dAo6usxtqOndcVivA%2FB2ALnQ0SPLVm1hNA6XlhyddCW4ScTCeZKzdNFpNW0cRFtj2KLvRa%2F6ozkvb%2BzgXoVCChIOfSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZR5MHke9g2rFqsxsWDmn8oji%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=d72dc4c65b61f6aa1c7b4b5673bb165e25c8963528a92a7607aeced746fff9d1"
-			(at 170.18 93.98 0)
+			(at 175.26 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3491,7 +3555,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 93.98 0)
+			(at 175.26 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3502,7 +3566,7 @@
 			)
 		)
 		(property "Mfr" "PROD Tech"
-			(at 170.18 93.98 0)
+			(at 175.26 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3513,7 +3577,7 @@
 			)
 		)
 		(property "Mfr PN" "PSPMAA063T-100M-ANP"
-			(at 170.18 93.98 0)
+			(at 175.26 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3524,7 +3588,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 170.18 93.98 0)
+			(at 175.26 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3535,7 +3599,7 @@
 			)
 		)
 		(property "Supplier PN" "C436568"
-			(at 170.18 93.98 0)
+			(at 175.26 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3546,7 +3610,7 @@
 			)
 		)
 		(property "Part Description" "10uH 5.5A 5A 68mΩ ±20% SMD,7.1x6.6mm Power Inductors ROHS"
-			(at 170.18 93.98 0)
+			(at 175.26 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3557,7 +3621,7 @@
 			)
 		)
 		(property "PROD_ID" ""
-			(at 170.18 93.98 0)
+			(at 175.26 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3731,7 +3795,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 154.94 93.98 90)
+		(at 160.02 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3741,7 +3805,7 @@
 		(dnp no)
 		(uuid "18d2893c-93fe-428a-8f1c-aa34a312b7e6")
 		(property "Reference" "C35"
-			(at 160.02 92.456 90)
+			(at 165.1 92.456 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3752,7 +3816,7 @@
 			)
 		)
 		(property "Value" "220n"
-			(at 161.29 95.504 90)
+			(at 166.37 95.504 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3763,7 +3827,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 158.75 93.0148 0)
+			(at 163.83 93.0148 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3774,7 +3838,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588894348083257344-C97857.pdf?response-content-disposition=attachment%3B%20filename%3DC97857.pdf%3B%20filename%2A%3DUTF-8%27%27C97857.pdf&x-oss-date=20260701T145147Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5mGMu7yq6t7%2BYSbU032jDY9fP0elffDtzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qYoBgxZY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWorF0MxD0tHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMINqROe6KWD5sagAGIyW1VfLNcNhLA4FVRBBhuu18r56OHpC6cj02CplgHx8kjgO4CC6Hc6qXysNZlacsu5LVl2PhRl6bbVwYZTEPMsBvjoAJ8nGq9MSZZpaFD0RTz0gD%2FtxFtKtwcJ4M5rg5EKf6uk6H2jAuLBVzwZEIvfiUqR2j%2BMGhyJQ8tSaduSiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZ3yTFFtZNFpQkGh6hpr2z2hU%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=dc15c6cfe5093e11cc6e61b033221bf4616baadd95d029988eb2180eddb7e9e6"
-			(at 154.94 93.98 0)
+			(at 160.02 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3785,7 +3849,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 93.98 0)
+			(at 160.02 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3796,7 +3860,7 @@
 			)
 		)
 		(property "Mfr" "Murata Electronics"
-			(at 154.94 93.98 0)
+			(at 160.02 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3807,7 +3871,7 @@
 			)
 		)
 		(property "Mfr PN" "GCM188R71H224KA64D"
-			(at 154.94 93.98 0)
+			(at 160.02 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3818,7 +3882,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 154.94 93.98 0)
+			(at 160.02 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3829,7 +3893,7 @@
 			)
 		)
 		(property "Supplier PN" "C97857"
-			(at 154.94 93.98 0)
+			(at 160.02 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3840,7 +3904,7 @@
 			)
 		)
 		(property "Part Description" "220nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 154.94 93.98 0)
+			(at 160.02 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3851,7 +3915,7 @@
 			)
 		)
 		(property "PROD_ID" ""
-			(at 154.94 93.98 90)
+			(at 160.02 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4788,7 +4852,7 @@
 	)
 	(symbol
 		(lib_id "pspice:INDUCTOR")
-		(at 170.18 78.74 0)
+		(at 175.26 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4798,7 +4862,7 @@
 		(dnp no)
 		(uuid "432e326e-578f-4b2a-a11a-e104b9ae2413")
 		(property "Reference" "L3"
-			(at 166.37 75.946 0)
+			(at 171.45 75.946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4808,7 +4872,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 171.958 75.946 0)
+			(at 177.038 75.946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4818,7 +4882,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_KOHERelec_MDA7030"
-			(at 170.18 78.74 0)
+			(at 175.26 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4829,7 +4893,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8757062983157452800-C436568.pdf?response-content-disposition=attachment%3B%20filename%3DC436568.pdf%3B%20filename%2A%3DUTF-8%27%27C436568.pdf&x-oss-date=20260701T153149Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nnfvf8hroY0PCZRFfCnHMCSOJC16rBizz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qYA12hdY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWopgz%2BsnGnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIePqE3aKWD5sagAF8ccWnCQEjxI25bixWS9flNyCY3ORSRhNyzzqNi4qQWT6mki5vcuc9y7Lq4kluKW%2BleVs5GNJOayDhlz11dAo6usxtqOndcVivA%2FB2ALnQ0SPLVm1hNA6XlhyddCW4ScTCeZKzdNFpNW0cRFtj2KLvRa%2F6ozkvb%2BzgXoVCChIOfSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZR5MHke9g2rFqsxsWDmn8oji%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=d72dc4c65b61f6aa1c7b4b5673bb165e25c8963528a92a7607aeced746fff9d1"
-			(at 170.18 78.74 0)
+			(at 175.26 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4840,7 +4904,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 78.74 0)
+			(at 175.26 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4851,7 +4915,7 @@
 			)
 		)
 		(property "Mfr" "PROD Tech"
-			(at 170.18 78.74 0)
+			(at 175.26 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4862,7 +4926,7 @@
 			)
 		)
 		(property "Mfr PN" "PSPMAA063T-100M-ANP"
-			(at 170.18 78.74 0)
+			(at 175.26 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4873,7 +4937,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 170.18 78.74 0)
+			(at 175.26 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4884,7 +4948,7 @@
 			)
 		)
 		(property "Supplier PN" "C436568"
-			(at 170.18 78.74 0)
+			(at 175.26 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4895,7 +4959,7 @@
 			)
 		)
 		(property "Part Description" "10uH 5.5A 5A 68mΩ ±20% SMD,7.1x6.6mm Power Inductors ROHS"
-			(at 170.18 78.74 0)
+			(at 175.26 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4906,7 +4970,7 @@
 			)
 		)
 		(property "PROD_ID" ""
-			(at 170.18 78.74 0)
+			(at 175.26 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5408,7 +5472,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 177.8 82.55 180)
+		(at 182.88 82.55 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5418,7 +5482,7 @@
 		(dnp no)
 		(uuid "7430eac3-de39-4f15-be8b-2978fdfb316b")
 		(property "Reference" "C34"
-			(at 180.594 81.534 0)
+			(at 185.674 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5429,7 +5493,7 @@
 			)
 		)
 		(property "Value" "680n"
-			(at 180.594 83.82 0)
+			(at 185.674 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5440,7 +5504,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 176.8348 78.74 0)
+			(at 181.9148 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5451,7 +5515,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8590224199609581568-C668325.pdf?response-content-disposition=attachment%3B%20filename%3DC668325.pdf%3B%20filename%2A%3DUTF-8%27%27C668325.pdf&x-oss-date=20260701T153535Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nnfvf8hroY0PCZRFfCnHMCSOJC16rBizz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qYA12hdY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWopgz%2BsnGnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIePqE3aKWD5sagAF8ccWnCQEjxI25bixWS9flNyCY3ORSRhNyzzqNi4qQWT6mki5vcuc9y7Lq4kluKW%2BleVs5GNJOayDhlz11dAo6usxtqOndcVivA%2FB2ALnQ0SPLVm1hNA6XlhyddCW4ScTCeZKzdNFpNW0cRFtj2KLvRa%2F6ozkvb%2BzgXoVCChIOfSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZR5MHke9g2rFqsxsWDmn8oji%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=f8b41cba1962ecc7a90c39cbe9255a94ef248d5b845cde02b1d7557aaff828b9"
-			(at 177.8 82.55 0)
+			(at 182.88 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5462,7 +5526,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 82.55 0)
+			(at 182.88 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5473,7 +5537,7 @@
 			)
 		)
 		(property "Mfr" "Murata Electronics"
-			(at 177.8 82.55 0)
+			(at 182.88 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5484,7 +5548,7 @@
 			)
 		)
 		(property "Mfr PN" "GCM31MR71H684KA55L"
-			(at 177.8 82.55 0)
+			(at 182.88 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5495,7 +5559,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 177.8 82.55 0)
+			(at 182.88 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5506,7 +5570,7 @@
 			)
 		)
 		(property "Supplier PN" "C668325"
-			(at 177.8 82.55 0)
+			(at 182.88 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5517,7 +5581,7 @@
 			)
 		)
 		(property "Part Description" "50V 680nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 177.8 82.55 0)
+			(at 182.88 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5528,7 +5592,7 @@
 			)
 		)
 		(property "PROD_ID" ""
-			(at 177.8 82.55 0)
+			(at 182.88 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5778,7 +5842,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 177.8 86.36 0)
+		(at 182.88 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5788,7 +5852,7 @@
 		(dnp no)
 		(uuid "7fb3779b-0131-4179-839f-381c46fd3548")
 		(property "Reference" "#GND_017"
-			(at 177.8 86.36 0)
+			(at 182.88 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5800,7 +5864,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 90.17 0)
+			(at 182.88 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5811,7 +5875,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 86.36 0)
+			(at 182.88 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5823,7 +5887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 86.36 0)
+			(at 182.88 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5835,7 +5899,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 86.36 0)
+			(at 182.88 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5845,7 +5909,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 186.69 93.98 0)
+			(at 191.77 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5858,7 +5922,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 186.69 96.52 0)
+			(at 191.77 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6497,7 +6561,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 177.8 101.6 0)
+		(at 182.88 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6507,7 +6571,7 @@
 		(dnp no)
 		(uuid "c7f82e73-1413-4ab8-a36a-6775c9c9edb9")
 		(property "Reference" "#GND_018"
-			(at 177.8 101.6 0)
+			(at 182.88 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6519,7 +6583,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 105.41 0)
+			(at 182.88 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6530,7 +6594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 101.6 0)
+			(at 182.88 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6542,7 +6606,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 101.6 0)
+			(at 182.88 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6554,7 +6618,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 101.6 0)
+			(at 182.88 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6564,7 +6628,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 186.69 109.22 0)
+			(at 191.77 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6577,7 +6641,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 186.69 111.76 0)
+			(at 191.77 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6896,7 +6960,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 177.8 97.79 180)
+		(at 182.88 97.79 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6906,7 +6970,7 @@
 		(dnp no)
 		(uuid "d8b179e3-1bcd-4c42-866a-e24eff0822c0")
 		(property "Reference" "C36"
-			(at 180.594 96.774 0)
+			(at 185.674 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6917,7 +6981,7 @@
 			)
 		)
 		(property "Value" "680n"
-			(at 180.594 99.06 0)
+			(at 185.674 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6928,7 +6992,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 176.8348 93.98 0)
+			(at 181.9148 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6939,7 +7003,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8590224199609581568-C668325.pdf?response-content-disposition=attachment%3B%20filename%3DC668325.pdf%3B%20filename%2A%3DUTF-8%27%27C668325.pdf&x-oss-date=20260701T153535Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nnfvf8hroY0PCZRFfCnHMCSOJC16rBizz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qYA12hdY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWopgz%2BsnGnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIePqE3aKWD5sagAF8ccWnCQEjxI25bixWS9flNyCY3ORSRhNyzzqNi4qQWT6mki5vcuc9y7Lq4kluKW%2BleVs5GNJOayDhlz11dAo6usxtqOndcVivA%2FB2ALnQ0SPLVm1hNA6XlhyddCW4ScTCeZKzdNFpNW0cRFtj2KLvRa%2F6ozkvb%2BzgXoVCChIOfSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZR5MHke9g2rFqsxsWDmn8oji%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=f8b41cba1962ecc7a90c39cbe9255a94ef248d5b845cde02b1d7557aaff828b9"
-			(at 177.8 97.79 0)
+			(at 182.88 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6950,7 +7014,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 97.79 0)
+			(at 182.88 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6961,7 +7025,7 @@
 			)
 		)
 		(property "Mfr" "Murata Electronics"
-			(at 177.8 97.79 0)
+			(at 182.88 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6972,7 +7036,7 @@
 			)
 		)
 		(property "Mfr PN" "GCM31MR71H684KA55L"
-			(at 177.8 97.79 0)
+			(at 182.88 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6983,7 +7047,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 177.8 97.79 0)
+			(at 182.88 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6994,7 +7058,7 @@
 			)
 		)
 		(property "Supplier PN" "C668325"
-			(at 177.8 97.79 0)
+			(at 182.88 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7005,7 +7069,7 @@
 			)
 		)
 		(property "Part Description" "50V 680nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 177.8 97.79 0)
+			(at 182.88 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7016,7 +7080,7 @@
 			)
 		)
 		(property "PROD_ID" ""
-			(at 177.8 97.79 0)
+			(at 182.88 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7413,7 +7477,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 154.94 78.74 90)
+		(at 160.02 78.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7423,7 +7487,7 @@
 		(dnp no)
 		(uuid "fd4a3384-333c-4a28-bc54-83cb17d6d50f")
 		(property "Reference" "C33"
-			(at 160.02 76.962 90)
+			(at 165.1 76.962 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7434,7 +7498,7 @@
 			)
 		)
 		(property "Value" "220n"
-			(at 161.29 80.518 90)
+			(at 166.37 80.518 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7445,7 +7509,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 158.75 77.7748 0)
+			(at 163.83 77.7748 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7456,7 +7520,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588894348083257344-C97857.pdf?response-content-disposition=attachment%3B%20filename%3DC97857.pdf%3B%20filename%2A%3DUTF-8%27%27C97857.pdf&x-oss-date=20260701T145147Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5mGMu7yq6t7%2BYSbU032jDY9fP0elffDtzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qYoBgxZY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWorF0MxD0tHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMINqROe6KWD5sagAGIyW1VfLNcNhLA4FVRBBhuu18r56OHpC6cj02CplgHx8kjgO4CC6Hc6qXysNZlacsu5LVl2PhRl6bbVwYZTEPMsBvjoAJ8nGq9MSZZpaFD0RTz0gD%2FtxFtKtwcJ4M5rg5EKf6uk6H2jAuLBVzwZEIvfiUqR2j%2BMGhyJQ8tSaduSiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZ3yTFFtZNFpQkGh6hpr2z2hU%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=dc15c6cfe5093e11cc6e61b033221bf4616baadd95d029988eb2180eddb7e9e6"
-			(at 154.94 78.74 0)
+			(at 160.02 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7467,7 +7531,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 78.74 0)
+			(at 160.02 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7478,7 +7542,7 @@
 			)
 		)
 		(property "Mfr" "Murata Electronics"
-			(at 154.94 78.74 0)
+			(at 160.02 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7489,7 +7553,7 @@
 			)
 		)
 		(property "Mfr PN" "GCM188R71H224KA64D"
-			(at 154.94 78.74 0)
+			(at 160.02 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7500,7 +7564,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 154.94 78.74 0)
+			(at 160.02 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7511,7 +7575,7 @@
 			)
 		)
 		(property "Supplier PN" "C97857"
-			(at 154.94 78.74 0)
+			(at 160.02 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7522,7 +7586,7 @@
 			)
 		)
 		(property "Part Description" "220nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 154.94 78.74 0)
+			(at 160.02 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7533,7 +7597,7 @@
 			)
 		)
 		(property "PROD_ID" ""
-			(at 154.94 78.74 90)
+			(at 160.02 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
