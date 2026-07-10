@@ -1111,6 +1111,478 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "GND_1"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND_2"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_2_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_2_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "INDUCTOR_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L1"
+				(at -3.81 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "6.8u"
+				(at 3.048 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA0602S"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8608737232103108608-C167221.pdf?response-content-disposition=attachment%3B%20filename%3DC167221.pdf%3B%20filename%2A%3DUTF-8%27%27C167221.pdf&x-oss-date=20260701T020032Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rdPdPsnpsX546nU2HV0XozP7Z9ovz7iDz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qZ0fizxY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWgorQNktGnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkI8UzLSaKWD5sagAG0xupq5%2BdIPrdt6KX6pDieOmjTEBR3UWMgaF1E605mT9XO2GEZN6jfVG0D%2FeJpqluRXECBG0aACikxuIWpmi2R%2FQB40AwRAhncIO1RrS%2BRUzJIzczawVH%2BHy2g%2BGkznlqCZDJGwgQ2jfQmUIErYpeY%2FY8Ybm%2BZWee%2BXgTDKn71eCAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYhviXsD6PLLQGd5zf39QM9Pj%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=fbc363b8bdc770061e5ac9cc6fbf60d60b3fb4e7e9fda032efada7073a61eb06"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr" "cjiang (Changjiang Microelectronics Tech)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr PN" "FXL0630-6R8-M"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier PN" "C167221"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Description" "48mΩ 5A 6.8uH 6A Molded Inductor ±20% SMD,7x6.6mm Power Inductors ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PROD_ID" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mar" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "INDUCTOR_1_0_1"
+				(arc
+					(start -5.08 0)
+					(mid -3.81 1.2645)
+					(end -2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.27 1.2645)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 1.27 1.2645)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 3.81 1.2645)
+					(end 5.08 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "INDUCTOR_1_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SparkFun-PowerSymbol:3.3V"
 			(power global)
 			(pin_names
@@ -1692,6 +2164,17 @@
 					)
 				)
 			)
+			(property "Mar" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "TPS54331D_1_0_0"
 				(rectangle
 					(start -12.7 12.7)
@@ -1715,24 +2198,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -16.51 0)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1832,6 +2297,24 @@
 				)
 			)
 			(symbol "TPS54331D_1_1_0"
+				(pin power_in line
+					(at -17.78 -16.51 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at -2.54 -25.4 90)
 					(length 5.08)
@@ -2006,118 +2489,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "pspice:INDUCTOR"
 			(pin_numbers
 				(hide yes)
@@ -2130,8 +2501,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at 0 2.54 0)
+			(property "Reference" "L2"
+				(at -3.81 2.794 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2140,8 +2511,8 @@
 					)
 				)
 			)
-			(property "Value" "INDUCTOR"
-				(at 0 -1.27 0)
+			(property "Value" "6.8u"
+				(at 3.048 2.794 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2150,7 +2521,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA0602S"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2161,7 +2532,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8608737232103108608-C167221.pdf?response-content-disposition=attachment%3B%20filename%3DC167221.pdf%3B%20filename%2A%3DUTF-8%27%27C167221.pdf&x-oss-date=20260701T020032Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rdPdPsnpsX546nU2HV0XozP7Z9ovz7iDz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qZ0fizxY4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWgorQNktGnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkI8UzLSaKWD5sagAG0xupq5%2BdIPrdt6KX6pDieOmjTEBR3UWMgaF1E605mT9XO2GEZN6jfVG0D%2FeJpqluRXECBG0aACikxuIWpmi2R%2FQB40AwRAhncIO1RrS%2BRUzJIzczawVH%2BHy2g%2BGkznlqCZDJGwgQ2jfQmUIErYpeY%2FY8Ybm%2BZWee%2BXgTDKn71eCAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYhviXsD6PLLQGd5zf39QM9Pj%2F20260701%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=fbc363b8bdc770061e5ac9cc6fbf60d60b3fb4e7e9fda032efada7073a61eb06"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2172,7 +2543,83 @@
 					)
 				)
 			)
-			(property "Description" "Inductor symbol for simulation only"
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr" "cjiang (Changjiang Microelectronics Tech)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr PN" "FXL0630-6R8-M"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier PN" "C167221"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Description" "48mΩ 5A 6.8uH 6A Molded Inductor ±20% SMD,7x6.6mm Power Inductors ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PROD_ID" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mar" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2245,7 +2692,7 @@
 				)
 			)
 			(symbol "INDUCTOR_1_1"
-				(pin input line
+				(pin passive line
 					(at -6.35 0 0)
 					(length 1.27)
 					(name "1"
@@ -2263,7 +2710,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 6.35 0 180)
 					(length 1.27)
 					(name "2"
@@ -8249,6 +8696,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 182.88 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "06022b52-166a-4282-ad71-473709e4ee6c")
 		)
@@ -8396,6 +8854,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 60.96 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e069ced6-54dd-44a4-9990-0eaf2ac5bdb7")
 		)
@@ -8532,6 +9001,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 138.43 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 138.43 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -8689,6 +9169,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 238.76 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f4c4d5dc-7015-428f-9f42-84ee1da43ad5")
 		)
@@ -8825,6 +9316,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 106.68 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 106.68 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -9087,6 +9589,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 181.61 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "70b5d90f-95aa-4423-9f59-1c86d6c3b9e2")
 		)
@@ -9168,6 +9681,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 124.46 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 124.46 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -9312,6 +9836,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 105.41 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 105.41 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -9572,6 +10107,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 82.55 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7d581174-3368-4bcc-a4b9-a75553bb1c27")
 		)
@@ -9708,6 +10254,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 172.72 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 172.72 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -9860,6 +10417,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 83.82 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 83.82 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10143,6 +10711,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 128.27 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e6f69e86-0283-4f97-aca5-0d27be487c41")
 		)
@@ -10394,6 +10973,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 226.06 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "625997c8-91fa-44b5-85fe-7b64aee9bae4")
 		)
@@ -10529,6 +11119,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 208.28 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 208.28 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -10761,6 +11362,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 259.08 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3458deda-1f08-40fe-b7c8-3646e800b9e2")
 		)
@@ -10908,6 +11520,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 118.11 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "228be877-e8a8-4b56-9a16-a527f5dca3af")
 		)
@@ -10989,6 +11612,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 139.7 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 139.7 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -11209,6 +11843,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 114.3 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 114.3 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -11471,6 +12116,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 195.58 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d12c0cad-1b38-415a-9b1a-6d1e0d70615f")
 		)
@@ -11618,6 +12274,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 74.93 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bbe97040-6d51-4b50-8064-cb0fcc5cc893")
 		)
@@ -11755,6 +12422,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 248.92 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 248.92 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -11961,6 +12639,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 260.35 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f140307d-f3b4-4355-bc7f-7d6c9a767561")
 		)
@@ -12094,6 +12783,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 138.43 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 138.43 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -12241,6 +12941,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 259.08 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 259.08 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -12474,6 +13185,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 119.38 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 119.38 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -12750,6 +13472,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 72.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3ebf01f6-fa3e-4cc4-ba87-c6f6a8533b20")
 		)
@@ -12760,82 +13493,6 @@
 			(project "ESP32-S3_Audio_Control_Board"
 				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/02a6e186-fbc9-4047-913b-4f654bb5cb6f"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 72.39 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "88f05e88-f6f9-4dcb-91e1-bba198e48cbd")
-		(property "Reference" "#PWR014"
-			(at 72.39 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 48.006 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "61bc06e3-0139-487f-a8cb-7679d212ece7")
-		)
-		(instances
-			(project "ESP32-S3_Audio_Control_Board"
-				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/02a6e186-fbc9-4047-913b-4f654bb5cb6f"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -12967,7 +13624,7 @@
 				)
 			)
 		)
-		(property "Value" "Barrel_Jack"
+		(property "Value" "PJ-102AH"
 			(at 57.404 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12999,8 +13656,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN PWR JACK 2mm x 6.5mm"
 			(at 57.15 35.56 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13031,7 +13689,7 @@
 				)
 			)
 		)
-		(property "Part Description" "DC Power Connectors PCB 2.1MM"
+		(property "Part Description" "CONN PWR JACK 2mm x 6.5mm"
 			(at 57.15 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -13065,6 +13723,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 57.15 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 57.15 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -13240,6 +13909,84 @@
 			(project "ESP32-S3_Audio_Control_Board"
 				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/02a6e186-fbc9-4047-913b-4f654bb5cb6f"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 72.39 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "992e17a4-a205-41e4-9e8e-70a4e299518f")
+		(property "Reference" "#PWR035"
+			(at 72.39 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 48.006 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0fdd6a13-3b58-48c3-8e9a-d5b227b6b034")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/02a6e186-fbc9-4047-913b-4f654bb5cb6f"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -13692,6 +14439,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 193.04 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "43ea5800-8283-4601-883a-dd4e0844b2ca")
 		)
@@ -13763,8 +14521,74 @@
 				)
 			)
 		)
-		(property "Description" "400W unidirectional Transient Voltage Suppressor, 13.0Vr, SMA(DO-214AC)"
+		(property "Description" "TVS DIODE 13VWM 21.5VC DO-214AC(SMA)"
 			(at 91.44 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
+			(at 91.44 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Littelfuse"
+			(at 91.44 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" "SMAJ13A"
+			(at 91.44 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "TVS DIODE 13VWM 21.5VC DO-214AC(SMA)"
+			(at 91.44 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 91.44 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" "C148214"
+			(at 91.44 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13784,6 +14608,84 @@
 			(project "ESP32-S3_Audio_Control_Board"
 				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/02a6e186-fbc9-4047-913b-4f654bb5cb6f"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 119.38 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b4d0c460-6f49-48a7-9a5c-1a12314907bc")
+		(property "Reference" "#PWR014"
+			(at 119.38 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 46.736 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "469ac348-6c87-4352-9db2-dfd18febd072")
+		)
+		(instances
+			(project "ESP32-S3_Audio_Control_Board"
+				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/02a6e186-fbc9-4047-913b-4f654bb5cb6f"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -14026,6 +14928,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 234.95 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "89139096-84de-4c84-854a-a9e9041068b8")
 		)
@@ -14163,6 +15076,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 172.72 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 172.72 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -14396,6 +15320,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 226.06 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "51b8397c-bac0-4a83-b486-82e7c3a9bfcf")
 		)
@@ -14542,6 +15477,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 52.07 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "37859954-fb3b-4ca1-805a-9e7c2af4c7dc")
 		)
@@ -14678,6 +15624,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 52.07 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 52.07 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -15014,6 +15971,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 87.63 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b51b2121-cfac-4ed0-887d-148e99cbae72")
 		)
@@ -15151,6 +16119,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 72.39 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 72.39 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -15413,6 +16392,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 52.07 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "64d08985-fc20-41a1-a57f-4705a1c789e7")
 		)
@@ -15423,82 +16413,6 @@
 			(project "ESP32-S3_Audio_Control_Board"
 				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/02a6e186-fbc9-4047-913b-4f654bb5cb6f"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 119.38 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f155022a-e798-49fe-86ae-f077f7c251cf")
-		(property "Reference" "#PWR012"
-			(at 119.38 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.38 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cd1da77c-ccad-4603-a28f-a3704bbcf7be")
-		)
-		(instances
-			(project "ESP32-S3_Audio_Control_Board"
-				(path "/4afaeed5-a941-46ef-9c44-8184edd385da/02a6e186-fbc9-4047-913b-4f654bb5cb6f"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -15626,6 +16540,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 62.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 62.23 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -15770,6 +16695,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 224.79 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 224.79 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -15926,6 +16862,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 105.41 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "05031623-268c-4427-9c57-face8cce73ab")
 		)
@@ -15942,6 +16889,7 @@
 		)
 	)
 	(symbol
+		(lib_name "INDUCTOR_1")
 		(lib_id "pspice:INDUCTOR")
 		(at 104.14 104.14 0)
 		(unit 1)
@@ -16060,6 +17008,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 104.14 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 104.14 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -16216,6 +17175,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 172.72 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a85dd5b6-7af1-43f6-979e-a4d4e228c387")
 		)
@@ -16355,6 +17325,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 204.47 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 204.47 121.92 0)
 			(hide yes)
 			(show_name no)

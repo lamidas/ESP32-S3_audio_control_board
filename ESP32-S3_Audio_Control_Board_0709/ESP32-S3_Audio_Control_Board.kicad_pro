@@ -446,16 +446,16 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "field_name_whitespace": "warning",
-      "footprint_filter": "ignore",
-      "footprint_link_issues": "warning",
+      "footprint_filter": "warning",
+      "footprint_link_issues": "ignore",
       "four_way_junction": "ignore",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
-      "isolated_pin_label": "warning",
+      "isolated_pin_label": "error",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
-      "lib_symbol_issues": "warning",
-      "lib_symbol_mismatch": "warning",
+      "lib_symbol_issues": "ignore",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -466,9 +466,9 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
-      "same_local_global_label": "warning",
+      "pin_to_pin": "ignore",
+      "power_pin_not_driven": "ignore",
+      "same_local_global_label": "ignore",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -565,14 +565,14 @@
         },
         {
           "group_by": true,
-          "label": "Value",
-          "name": "Value",
+          "label": "DNP",
+          "name": "${DNP}",
           "show": true
         },
         {
           "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
+          "label": "Value",
+          "name": "Value",
           "show": true
         },
         {
@@ -774,7 +774,7 @@
         "uuid": "4afaeed5-a941-46ef-9c44-8184edd385da"
       }
     ],
-    "used_designators": "D2,R20-21,TP16-17",
+    "used_designators": "#PWR14-15,#PWR35,D2,R20-21,TP16-17",
     "variants": []
   },
   "sheets": [

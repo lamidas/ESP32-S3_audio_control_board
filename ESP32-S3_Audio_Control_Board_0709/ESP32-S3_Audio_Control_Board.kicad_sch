@@ -343,6 +343,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 203.2 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "ESP32-S3_Audio_Control_Board"
 				(path "/4afaeed5-a941-46ef-9c44-8184edd385da"
@@ -420,6 +431,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 241.3 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 241.3 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -517,6 +539,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "ESP32-S3_Audio_Control_Board"
 				(path "/4afaeed5-a941-46ef-9c44-8184edd385da"
@@ -594,6 +627,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 241.3 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 241.3 127 0)
 			(hide yes)
 			(show_name no)
@@ -691,6 +735,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 228.6 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "ESP32-S3_Audio_Control_Board"
 				(path "/4afaeed5-a941-46ef-9c44-8184edd385da"
@@ -768,6 +823,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 228.6 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 228.6 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -865,6 +931,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 203.2 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "ESP32-S3_Audio_Control_Board"
 				(path "/4afaeed5-a941-46ef-9c44-8184edd385da"
@@ -942,6 +1019,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 203.2 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 203.2 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -1039,6 +1127,17 @@
 				)
 			)
 		)
+		(property "Mar" ""
+			(at 241.3 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "ESP32-S3_Audio_Control_Board"
 				(path "/4afaeed5-a941-46ef-9c44-8184edd385da"
@@ -1116,6 +1215,17 @@
 			)
 		)
 		(property "PROD_ID" ""
+			(at 203.2 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mar" ""
 			(at 203.2 146.05 0)
 			(hide yes)
 			(show_name no)
