@@ -2103,7 +2103,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 97.79) (xy 179.07 97.79)
+			(xy 167.64 97.79) (xy 185.42 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2223,7 +2223,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 95.25) (xy 179.07 95.25)
+			(xy 167.64 95.25) (xy 185.42 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2631,7 +2631,7 @@
 		)
 		(uuid "08a87f01-d945-4989-affa-3d8fbadc690e")
 	)
-	(label "USB_DP"
+	(label "USB_D_P"
 		(at 271.78 77.47 180)
 		(effects
 			(font
@@ -2641,7 +2641,7 @@
 		)
 		(uuid "0af50fdf-ea29-4e1e-9ab9-2957be546d3d")
 	)
-	(label "USB_DM"
+	(label "USB_D_N"
 		(at 179.07 95.25 180)
 		(effects
 			(font
@@ -2731,7 +2731,7 @@
 		)
 		(uuid "71dd4888-a59a-4ee6-affd-517858c494c0")
 	)
-	(label "USB_DP"
+	(label "USB_D_P"
 		(at 179.07 97.79 180)
 		(effects
 			(font
@@ -2791,7 +2791,7 @@
 		)
 		(uuid "9ff7301a-7418-4cbe-a30b-2eb0d2168ed3")
 	)
-	(label "USB_DM"
+	(label "USB_D_N"
 		(at 271.78 69.85 180)
 		(effects
 			(font
