@@ -8777,7 +8777,7 @@
 				)
 			)
 		)
-		(property "Description" "10nF 35V C0G ±5% 0402"
+		(property "Description" ""
 			(at 60.96 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8788,7 +8788,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Murata Electronics"
+		(property "Mfr" "YAGEO"
 			(at 60.96 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8799,7 +8799,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "GRM1555CYA103JE01D"
+		(property "Mfr PN" "CC0402KRX7R9BB103"
 			(at 60.96 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8821,7 +8821,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "C1518210"
+		(property "Supplier PN" "C60133"
 			(at 60.96 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8832,7 +8832,7 @@
 				)
 			)
 		)
-		(property "Part Description" "10nF 35V C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS "
+		(property "Part Description" "CAP CER 10nF 50V X7R 0402"
 			(at 60.96 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -9512,7 +9512,7 @@
 				)
 			)
 		)
-		(property "Description" "10nF 35V C0G ±5% 0402"
+		(property "Description" ""
 			(at 181.61 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9523,7 +9523,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Murata Electronics"
+		(property "Mfr" "YAGEO"
 			(at 181.61 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9534,7 +9534,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "GRM1555CYA103JE01D"
+		(property "Mfr PN" "CC0402KRX7R9BB103"
 			(at 181.61 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9556,7 +9556,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "C1518210"
+		(property "Supplier PN" "C60133"
 			(at 181.61 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9567,7 +9567,7 @@
 				)
 			)
 		)
-		(property "Part Description" "10nF 35V C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS "
+		(property "Part Description" "CAP CER 10nF 50V X7R 0402"
 			(at 181.61 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -14362,7 +14362,7 @@
 				)
 			)
 		)
-		(property "Description" "10nF 35V C0G ±5% 0402"
+		(property "Description" ""
 			(at 193.04 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -14373,7 +14373,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Murata Electronics"
+		(property "Mfr" "YAGEO"
 			(at 193.04 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -14384,7 +14384,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "GRM1555CYA103JE01D"
+		(property "Mfr PN" "CC0402KRX7R9BB103"
 			(at 193.04 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -14406,7 +14406,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "C1518210"
+		(property "Supplier PN" "C60133"
 			(at 193.04 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -14417,7 +14417,7 @@
 				)
 			)
 		)
-		(property "Part Description" "10nF 35V C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS "
+		(property "Part Description" "CAP CER 10nF 50V X7R 0402"
 			(at 193.04 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -16052,7 +16052,7 @@
 				)
 			)
 		)
-		(property "Description" "10nF 35V C0G ±5% 0402"
+		(property "Description" ""
 			(at 72.39 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -16063,7 +16063,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Murata Electronics"
+		(property "Mfr" "YAGEO"
 			(at 72.39 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -16074,7 +16074,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "GRM1555CYA103JE01D"
+		(property "Mfr PN" "CC0402KRX7R9BB103"
 			(at 72.39 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -16096,7 +16096,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "C1518210"
+		(property "Supplier PN" "C60133"
 			(at 72.39 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -16107,7 +16107,7 @@
 				)
 			)
 		)
-		(property "Part Description" "10nF 35V C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS "
+		(property "Part Description" "CAP CER 10nF 50V X7R 0402"
 			(at 72.39 83.82 0)
 			(hide yes)
 			(show_name no)

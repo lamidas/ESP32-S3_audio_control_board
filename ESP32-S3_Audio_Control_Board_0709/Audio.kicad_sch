@@ -4587,7 +4587,7 @@
 				)
 			)
 		)
-		(property "Part Description" "-55℃~+105℃ 10.5mm 2000hrs 25V 3.1mm 390uF 8mm ±20% SMD,D8xL10.5mm Polymer Aluminum Capacitors ROHS"
+		(property "Part Description" "CAP ALUM POLY 390uF ±20% 25V SMD"
 			(at 194.31 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4598,7 +4598,7 @@
 				)
 			)
 		)
-		(property "Supplier" "C5246545"
+		(property "Supplier" "LCSC"
 			(at 194.31 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4609,7 +4609,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "C46550405"
+		(property "Supplier PN" "C5246545"
 			(at 194.31 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5204,7 +5204,7 @@
 				)
 			)
 		)
-		(property "Part Description" "-55℃~+105℃ 10.5mm 2000hrs 25V 3.1mm 390uF 8mm ±20% SMD,D8xL10.5mm Polymer Aluminum Capacitors ROHS"
+		(property "Part Description" "CAP ALUM POLY 390uF ±20% 25V SMD"
 			(at 143.51 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5215,7 +5215,7 @@
 				)
 			)
 		)
-		(property "Supplier" "C5246545"
+		(property "Supplier" "LCSC"
 			(at 143.51 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5226,7 +5226,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "C46550405"
+		(property "Supplier PN" "C5246545"
 			(at 143.51 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5679,7 +5679,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Murata Electronics"
+		(property "Mfr" "YAGEO"
 			(at 182.88 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5690,7 +5690,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "GCM31MR71H684KA55L"
+		(property "Mfr PN" "CC1206KKX7R9BB684"
 			(at 182.88 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5712,7 +5712,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "C668325"
+		(property "Supplier PN" "C145012"
 			(at 182.88 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5723,7 +5723,7 @@
 				)
 			)
 		)
-		(property "Part Description" "50V 680nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Part Description" "CAP CER 680nF 50V X7R 1206"
 			(at 182.88 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6643,7 +6643,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Mfr" "YAGEO"
 			(at 101.6 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6654,7 +6654,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "0402WGF1002TCE"
+		(property "Mfr PN" "RC0402FR-0710KL"
 			(at 101.6 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6676,7 +6676,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "C25744"
+		(property "Supplier PN" "C60490"
 			(at 101.6 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6687,7 +6687,7 @@
 				)
 			)
 		)
-		(property "Part Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Part Description" "RES 10kΩ ±1% 62.5mW 0402"
 			(at 101.6 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7222,7 +7222,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Murata Electronics"
+		(property "Mfr" "YAGEO"
 			(at 182.88 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7233,7 +7233,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "GCM31MR71H684KA55L"
+		(property "Mfr PN" "CC1206KKX7R9BB684"
 			(at 182.88 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7255,7 +7255,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "C668325"
+		(property "Supplier PN" "C145012"
 			(at 182.88 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7266,7 +7266,7 @@
 				)
 			)
 		)
-		(property "Part Description" "50V 680nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Part Description" "CAP CER 680nF 50V X7R 1206"
 			(at 182.88 97.79 0)
 			(hide yes)
 			(show_name no)

@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.5,
-          "height": 3.5,
-          "width": 3.5
+          "drill": 0.0,
+          "height": 1.8,
+          "width": 1.15
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -83,15 +83,7 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|118381000|81117000|55d84040-663a-4604-834f-19916e08ca1c|e6f00886-2626-44e8-b38b-c91e395e8280",
-          ""
-        ],
-        [
           "courtyards_overlap|124219000|106224000|d07ece36-e7b9-40a9-8254-2e90ae373740|f1090db1-3264-4196-acc0-f1a796929571",
-          ""
-        ],
-        [
-          "courtyards_overlap|129714000|63935000|1a8b495d-ce6e-48ab-b53f-cd34bd0f8bb2|67c3de78-0165-47ff-8b31-133f5d8615a9",
           ""
         ],
         [
@@ -103,47 +95,7 @@
           ""
         ],
         [
-          "silk_overlap|113153000|81687819|d6e693a4-9cc3-4d15-8670-b1b6fdd01ccb|e987b486-6ea1-4753-ac87-7142bfc5f9cb",
-          ""
-        ],
-        [
-          "silk_overlap|113230809|81252000|36b85372-bd41-42f7-b11c-cca2bffbc419|e987b486-6ea1-4753-ac87-7142bfc5f9cb",
-          ""
-        ],
-        [
-          "silk_overlap|114986000|81252000|36b85372-bd41-42f7-b11c-cca2bffbc419|84a06220-bca3-4e5d-8588-e122fb33bd4b",
-          ""
-        ],
-        [
-          "silk_overlap|114986000|81252000|36b85372-bd41-42f7-b11c-cca2bffbc419|e8b5ec24-2cef-4675-a969-d8824740ab4d",
-          ""
-        ],
-        [
-          "silk_overlap|118286000|81252000|36b85372-bd41-42f7-b11c-cca2bffbc419|41f4775f-ca59-42cc-9b6e-e3fa8f612afc",
-          ""
-        ],
-        [
-          "silk_overlap|120373000|81667180|02230c9f-3be3-44be-a6f1-ec84b5a43b9f|f8d92f1b-2bfa-4848-8435-12d3cafabad8",
-          ""
-        ],
-        [
-          "silk_overlap|129849000|64030000|818de87a-09eb-4911-abac-6a47393bfabc|9cdfbe52-84e1-4708-84e1-98243482741f",
-          ""
-        ],
-        [
-          "silk_overlap|129849000|67330000|22201193-1dcb-47f5-80e0-9018aa2cf416|9cdfbe52-84e1-4708-84e1-98243482741f",
-          ""
-        ],
-        [
-          "silk_overlap|129849000|68985476|9cdfbe52-84e1-4708-84e1-98243482741f|b04e2153-9211-41e3-9e71-467355e4fd2f",
-          ""
-        ],
-        [
-          "silk_overlap|129878000|67330000|724918e6-93af-464b-b7aa-11ee50fd5f04|9cdfbe52-84e1-4708-84e1-98243482741f",
-          ""
-        ],
-        [
-          "silk_overlap|130238295|69290000|578b21e8-87c4-4ecc-afdd-88d51c4d57ce|b04e2153-9211-41e3-9e71-467355e4fd2f",
+          "lib_footprint_mismatch|151816500|84996075|8bc27fd9-0957-4492-a415-87b5f048f5fe|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -591,31 +543,54 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.3048,
+        "microvia_drill": 0.1016,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.6096,
+        "via_drill": 0.3048,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2032,
+        "name": "Diff_USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.149352,
+        "tuning_profile": "",
+        "via_diameter": 0.6096,
+        "via_drill": 0.3048
       }
     ],
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {
+      "12V": "rgb(255, 13, 27)",
+      "3V3": "rgb(23, 24, 255)"
+    },
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Diff_USB",
+        "pattern": "USB_D_N"
+      },
+      {
+        "netclass": "Diff_USB",
+        "pattern": "USB_D_P"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Output Files/Gerber/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -670,13 +645,13 @@
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -754,7 +729,7 @@
           "group_by": false,
           "label": "Package",
           "name": "Package",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -865,7 +840,7 @@
         "uuid": "4afaeed5-a941-46ef-9c44-8184edd385da"
       }
     ],
-    "used_designators": "#PWR14-15,#PWR35,D2,R20-21,TP16-17,U7",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

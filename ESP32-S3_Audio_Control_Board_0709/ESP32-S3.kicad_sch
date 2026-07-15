@@ -2642,7 +2642,7 @@
 		(uuid "0af50fdf-ea29-4e1e-9ab9-2957be546d3d")
 	)
 	(label "USB_D_N"
-		(at 179.07 95.25 180)
+		(at 185.42 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2732,7 +2732,7 @@
 		(uuid "71dd4888-a59a-4ee6-affd-517858c494c0")
 	)
 	(label "USB_D_P"
-		(at 179.07 97.79 180)
+		(at 185.42 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3751,7 +3751,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Mfr" "YAGEO"
 			(at 91.44 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3762,7 +3762,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "0402WGF1002TCE"
+		(property "Mfr PN" "RC0402FR-0710KL"
 			(at 91.44 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3784,7 +3784,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "C25744"
+		(property "Supplier PN" "C60490"
 			(at 91.44 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3795,7 +3795,7 @@
 				)
 			)
 		)
-		(property "Part Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Part Description" "RES 10kΩ ±1% 62.5mW 0402"
 			(at 91.44 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4007,7 +4007,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Mfr" "YAGEO"
 			(at 91.44 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4018,7 +4018,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "0402WGF1002TCE"
+		(property "Mfr PN" "RC0402FR-0710KL"
 			(at 91.44 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4040,7 +4040,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "C25744"
+		(property "Supplier PN" "C60490"
 			(at 91.44 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4051,7 +4051,7 @@
 				)
 			)
 		)
-		(property "Part Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Part Description" "RES 10kΩ ±1% 62.5mW 0402"
 			(at 91.44 80.01 0)
 			(hide yes)
 			(show_name no)
